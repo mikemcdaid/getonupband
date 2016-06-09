@@ -1,0 +1,20 @@
+name = Pushtape Audio
+description = This features package adds an audio file field to tracks.
+core = 7.x
+package = Pushtape
+version = 7.x-1.0-alpha2
+project = pushtape_audio
+dependencies[] = features
+dependencies[] = file
+dependencies[] = pushtape_player
+datestamp = 1359373429
+features[features_api][] = api:2
+features[field_base][] = field_audio
+features[field_instance][] = node-track-field_audio
+
+; Information added by Drupal.org packaging script on 2014-12-11
+version = "7.x-1.0-beta3"
+core = "7.x"
+project = "pushtape_audio"
+datestamp = "1418283185"
+
