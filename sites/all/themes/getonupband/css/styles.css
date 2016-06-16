@@ -791,10 +791,6 @@ th {
   margin-right: 32px;
 }
 
-.header {
-  background-color: #00AA00;
-}
-
 .header__logo {
   float: left;
   margin: 0 10px 0 0;
@@ -1824,6 +1820,15 @@ tr.drag-previous {
 .table-drag__tree-child-horizontal,
 .tree-child-horizontal {
   background-position: -11px center;
+}
+
+body.maintenance-page.in-maintenance.no-sidebars {
+  text-align: center;
+}
+
+body.maintenance-page.in-maintenance.no-sidebars .header__name-and-slogan {
+  margin-top: 50px;
+  float: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
