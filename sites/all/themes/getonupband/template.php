@@ -136,3 +136,19 @@ function getonupband_preprocess_comment(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 }
 // */
+
+function getonupband_breadcrumb($variables) {
+    $breadcrumb = $variables['breadcrumb'];
+    if (!empty($breadcrumb)) {
+        // Adding the title of the current page to the breadcrumb.
+        $breadcrumb[] = drupal_get_title();
+
+        // Provide a navigational heading to give context for breadcrumb links to
+        // screen-reader users. Make the heading invisible with .element-invisible.
+        $output = '';
+            //. t('You are here') . '';
+
+        $output .= '' . implode(' » ', $breadcrumb) . '';
+        return $output;
+    }
+}
