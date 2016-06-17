@@ -152,3 +152,11 @@ function getonupband_breadcrumb($variables) {
         return $output;
     }
 }
+
+function getonupband_superfish($variables) {
+
+    $output = theme_superfish($variables);
+    $output['subject'] = '&#x2261;';
+    return $output;
+
+}

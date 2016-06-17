@@ -63,6 +63,7 @@
 @import 'components/watermark/watermark';
 @import 'components/wireframe/wireframe';
 @import 'components/homepage-slider';
+@import 'components/superfish';
 
 
 // Navigation
@@ -103,3 +104,6 @@
 
 // Page
 @import 'page/maintenance-page';
+
+// Regions
+@import 'region/headers';

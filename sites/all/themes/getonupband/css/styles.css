@@ -1072,14 +1072,45 @@ span.field-label {
   word-wrap: break-word;
 }
 
-.bx-wrapper .bx-viewport {
+.homepage-slider {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.homepage-slider .bx-wrapper .bx-viewport {
   -moz-box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: none;
   border: none;
 }
 
-.bx-wrapper .bx-viewport li {
+.homepage-slider .bx-wrapper .bx-viewport ul {
+  margin: 0;
+}
+
+.homepage-slider .bx-wrapper .bx-viewport ul li {
   width: 1200px !important;
+}
+
+.sf-menu.sf-style-simple.sf-horizontal > li:first-child {
+  -webkit-border-top-left-radius: none;
+  -webkit-border-bottom-left-radius: none;
+  -moz-border-radius-topleft: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.sf-menu.sf-style-simple.sf-horizontal > li:last-child {
+  -webkit-border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.sf-menu.sf-style-simple.sf-horizontal li, .sf-menu.sf-style-simple.sf-navbar li {
+  border: none;
 }
 
 @media print {
@@ -1839,6 +1870,51 @@ body.maintenance-page.in-maintenance.no-sidebars {
 body.maintenance-page.in-maintenance.no-sidebars .header__name-and-slogan {
   margin-top: 50px;
   float: none;
+}
+
+header.header {
+  margin: 20px 0;
+}
+
+header.header .header-one,
+header.header .header-three {
+  margin-top: 55px;
+}
+
+header.header .header-one a,
+header.header .header-three a {
+  color: #BD5621;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+header.header .header-one {
+  text-align: left;
+}
+
+header.header .header-three {
+  text-align: right;
+}
+
+.super-nav {
+  width: 100%;
+  background-color: #BD5621;
+  height: 48px;
+}
+
+.super-nav .sf-menu.sf-style-simple li {
+  background: none;
+  text-align: center;
+}
+
+.super-nav .sf-menu.sf-style-simple a {
+  color: #fff;
+  text-shadow: none;
+}
+
+.layout-3col.layout-swap.main-content {
+  padding-top: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
