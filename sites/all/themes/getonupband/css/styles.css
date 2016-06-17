@@ -1075,6 +1075,11 @@ span.field-label {
 .bx-wrapper .bx-viewport {
   -moz-box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: none;
+  border: none;
+}
+
+.bx-wrapper .bx-viewport li {
+  width: 1200px !important;
 }
 
 @media print {
