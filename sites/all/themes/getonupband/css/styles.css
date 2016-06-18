@@ -1087,10 +1087,6 @@ span.field-label {
   margin: 0;
 }
 
-.homepage-slider .bx-wrapper .bx-viewport ul li {
-  width: 1200px !important;
-}
-
 .sf-menu.sf-style-simple.sf-horizontal > li:first-child {
   -webkit-border-top-left-radius: none;
   -webkit-border-bottom-left-radius: none;
