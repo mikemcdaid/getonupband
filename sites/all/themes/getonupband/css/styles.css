@@ -1880,7 +1880,7 @@ header.header .header-three {
 header.header .header-one a,
 header.header .header-three a {
   color: #BD5621;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
   text-decoration: none;
   font-size: 1.2em;
 }
