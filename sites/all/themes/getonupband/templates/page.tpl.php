@@ -49,6 +49,10 @@
     </div>
   </div>
 
+  <div class="homepage-slider">
+    <?php print render($page['highlighted']); ?>
+  </div>
+
   <div class="layout-center">
 
   <div class="layout-3col layout-swap main-content">
@@ -72,14 +76,6 @@
         $sidebar_first_class = 'layout-3col__left-sidebar';
       endif;
     ?>
-
-    </div>
-
-    <div class="homepage-slider">
-        <?php print render($page['highlighted']); ?>
-    </div>
-
-    <div class="layout-center">
 
     <main class="<?php print $content_class; ?>" role="main">
       <?php print $breadcrumb; ?>
