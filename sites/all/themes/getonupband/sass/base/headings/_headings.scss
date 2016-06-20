@@ -18,6 +18,8 @@ h1,
   // Set 1 unit of vertical rhythm on the top and bottom margins.
   @include margin-top(1, xxl);
   @include margin-bottom(1, xxl);
+  //color: #FFF;
+  text-align: center;
 }
 
 h2,

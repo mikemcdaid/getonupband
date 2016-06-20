@@ -10,10 +10,10 @@ header.header {
     .header-one,
     .header-three {
       text-align: center;
-      border: solid 2px #BD5621;
+      border: solid 2px color(orange);
       margin-top: 20px;
       a {
-        color: #6F292A;
+        color: color(orange);
         //text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
         text-decoration: none;
         font-size: 3em;
@@ -54,16 +54,3 @@ header.header {
       }
     }
   }
-
-
-
-
-body {
-  background-color: darken(#6F292A, 10%);
-}
-//content region
-.layout-center.main-content {
-  //
-  background-color: #6F292A;
-  padding-top: 0;
-}

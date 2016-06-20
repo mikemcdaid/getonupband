@@ -25,17 +25,21 @@ $chroma: add-colors((
   blue:                   #0072b9,
   red:                    #c00,
   yellow:                 #fd0,
+
+  primary:                #6F292A,
+  secondary:              ('primary' darken 10%),
+  orange:                 #BD5621,
 ));
 
 // Define color names for functional uses.
 $chroma: define-color-scheme('functional', 'Colors used by functional parts of the design.');
 $chroma: add-colors('functional', (
   // Colors used in the main content area.
-  text:                   'black',
-  text-bg:                'white',
+  text:                   'white',
+  text-bg:                'black',
 
-  link:                   'blue',
-  link-visited:           ('blue' darken 20%),
+  link:                   ('orange' lighten 20%),
+  link-visited:           'orange',
   link-active:            'red',
 
   border:                 'grey-light',
