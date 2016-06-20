@@ -863,7 +863,7 @@ span.field-label {
   margin: 0;
 }
 
-.homepage-slider .bx-wrapper .bx-viewport .bx-pager {
+.homepage-slider .bx-pager {
   bottom: 20px;
 }
 
@@ -1724,7 +1724,7 @@ header.header .header-three {
 
 header.header .header-one a,
 header.header .header-three a {
-  color: #BD5621;
+  color: #6F292A;
   text-decoration: none;
   font-size: 3em;
 }
