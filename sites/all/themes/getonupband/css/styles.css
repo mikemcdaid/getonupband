@@ -1669,7 +1669,8 @@ body.maintenance-page.in-maintenance.no-sidebars .header__name-and-slogan {
 }
 
 header.header {
-  margin: 20px 0;
+  padding: 20px 0;
+  background-color: #FFF;
 }
 
 @media (min-width: 555px) {
@@ -1704,7 +1705,6 @@ header.header .header-three {
 header.header .header-one a,
 header.header .header-three a {
   color: #BD5621;
-  text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
   text-decoration: none;
   font-size: 3em;
 }
@@ -1824,7 +1824,12 @@ header.header .header-three {
   }
 }
 
-.layout-3col.layout-swap.main-content {
+body {
+  background-color: #6F292A;
+}
+
+.layout-center.main-content {
+  background-color: #BD5621;
   padding-top: 0;
 }
 

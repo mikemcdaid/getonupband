@@ -8,10 +8,8 @@
  */
 ?>
 
-<div class="layout-center">
-
-  <header class="header" role="banner">
-
+<header class="header" role="banner">
+  <div class="layout-center">
     <div class="header-two">
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
@@ -36,12 +34,11 @@
       <?php print render($page['header_one']); ?>
     </div>
 
-      <div class="header-three">
-        <?php print render($page['header_three']); ?>
-      </div>
-  </header>
-
-</div>
+    <div class="header-three">
+      <?php print render($page['header_three']); ?>
+    </div>
+  </div>
+</header>
 
   <div class="super-nav">
     <div class="layout-center">
@@ -53,9 +50,9 @@
     <?php print render($page['highlighted']); ?>
   </div>
 
-<div class="layout-center">
+<div class="layout-center main-content">
 
-  <div class="layout-3col layout-swap main-content">
+  <div class="layout-3col layout-swap">
 
     <?php
       // Render the sidebars to see if there's anything in them.

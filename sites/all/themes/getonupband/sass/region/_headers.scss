@@ -1,10 +1,12 @@
 @import 'init';
 
 header.header {
+  padding: 20px 0;
+  background-color: #FFF;
   @include zen-respond-to(xs) {
     @include zen-grid-container($context: flow);
   }
-    margin: 20px 0;
+
     .header-one,
     .header-three {
       text-align: center;
@@ -12,7 +14,7 @@ header.header {
       margin-top: 20px;
       a {
         color: #BD5621;
-        text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+        //text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
         text-decoration: none;
         font-size: 3em;
       }
@@ -56,8 +58,11 @@ header.header {
 
 
 
-
+body {
+  background-color: #6F292A;
+}
 //content region
-.layout-3col.layout-swap.main-content {
+.layout-center.main-content {
+  background-color: #BD5621;
   padding-top: 0;
 }
