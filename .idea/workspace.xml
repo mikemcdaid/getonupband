@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ff877f4-15d7-449f-8327-7c7f8c23b3de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css.map" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/components/_homepage-slider.scss" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/components/_homepage-slider.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/region/_headers.scss" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/region/_headers.scss" />
     </list>
     <ignored path="public_html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,8 +70,8 @@
       <file leaf-file-name="_homepage-slider.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/components/_homepage-slider.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36723164">
-              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.31073445">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -868,8 +865,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/components/_homepage-slider.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36723164">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.31073445">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding />
         </state>
       </provider>

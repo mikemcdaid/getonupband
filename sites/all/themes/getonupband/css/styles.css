@@ -867,7 +867,11 @@ span.field-label {
   bottom: 20px;
 }
 
-.bx-wrapper .bx-pager.bx-default-pager a {
+.homepage-slider .bx-wrapper {
+  margin: 0;
+}
+
+.homepage-slider .bx-wrapper .bx-pager.bx-default-pager a {
   background: transparent;
   border: solid 1px #FFF;
   width: 15px;
@@ -875,11 +879,11 @@ span.field-label {
   border-radius: 10px;
 }
 
-.bx-wrapper .bx-pager.bx-default-pager a:hover {
+.homepage-slider .bx-wrapper .bx-pager.bx-default-pager a:hover {
   background: #FFF;
 }
 
-.bx-wrapper .bx-pager.bx-default-pager a.active {
+.homepage-slider .bx-wrapper .bx-pager.bx-default-pager a.active {
   background: #FFF;
 }
 
