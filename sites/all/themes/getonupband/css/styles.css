@@ -863,6 +863,26 @@ span.field-label {
   margin: 0;
 }
 
+.homepage-slider .bx-wrapper .bx-viewport .bx-pager {
+  bottom: 20px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: transparent;
+  border: solid 1px #FFF;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover {
+  background: #FFF;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #FFF;
+}
+
 .super-nav {
   width: 100%;
   background-color: #BD5621;
@@ -1825,11 +1845,11 @@ header.header .header-three {
 }
 
 body {
-  background-color: #6F292A;
+  background-color: #4a1b1c;
 }
 
 .layout-center.main-content {
-  background-color: #BD5621;
+  background-color: #6F292A;
   padding-top: 0;
 }
 

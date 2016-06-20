@@ -8,7 +8,23 @@
     ul {
       margin: 0;
     }
+    .bx-pager {
+      bottom: 20px;
+    }
   }
 }
 
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: transparent;
+  border: solid 1px #FFF;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  &:hover {
+    background: #FFF;
+  }
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #FFF;
+}
 

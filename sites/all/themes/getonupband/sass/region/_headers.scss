@@ -59,10 +59,11 @@ header.header {
 
 
 body {
-  background-color: #6F292A;
+  background-color: darken(#6F292A, 10%);
 }
 //content region
 .layout-center.main-content {
-  background-color: #BD5621;
+  //
+  background-color: #6F292A;
   padding-top: 0;
 }
