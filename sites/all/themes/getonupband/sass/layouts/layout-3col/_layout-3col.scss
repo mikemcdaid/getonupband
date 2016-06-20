@@ -47,116 +47,116 @@
 //
 // Style guide: layouts.layout-3col
 
-.layout-3col,
-%layout-3col {
-  // We set the context to flow, so that this container can be used in most
-  // places in the HTML, i.e. it must be nested inside something that has
-  // padding.
-  @include zen-grid-container($context: flow);
-
-  &__full,
-  &__left-content,
-  &__right-content,
-  &__left-sidebar,
-  &__right-sidebar,
-  &__first-left-sidebar,
-  &__second-left-sidebar,
-  &__col-1,
-  &__col-2,
-  &__col-3,
-  &__col-4,
-  &__col-x {
-    @include zen-new-row(both);
-    @include zen-grid-item-base();
-    @include zen-grid-item(1, 1);
-  }
-
-  @include zen-respond-to(m) {
-    // Since our container's context is "flow" and we changed the gutter size,
-    // we need to re-apply the container's negative left/right margins.
-    @include zen-grid-container($context: flow);
-
-    &__full,
-    &__left-content,
-    &__right-content,
-    &__left-sidebar,
-    &__right-sidebar {
-      @include zen-grid-item(2, 1);
-      // Since we changed the gutter size for this media query, we need to
-      // re-apply the padding to every grid item.
-      @include zen-apply-gutter-padding();
-    }
-
-    &__first-left-sidebar,
-    &__col-1,
-    &__col-3,
-    &__col-x:nth-child(2n + 1) {
-      @include zen-grid-item(1, 1);
-      @include zen-apply-gutter-padding();
-    }
-
-    &__second-left-sidebar,
-    &__col-2,
-    &__col-4,
-    &__col-x:nth-child(2n) {
-      // Since this inherits from the mobile layout, we have to explicitly turn
-      // off the new-row mixin.
-      @include zen-new-row(none);
-      @include zen-grid-item(1, 2);
-      @include zen-apply-gutter-padding();
-    }
-  }
-
-  @include zen-respond-to(xl) {
-    &__full {
-      @include zen-grid-item(3, 1);
-    }
-
-    &__left-content {
-      @include zen-grid-item(2, 1);
-    }
-
-    &__right-content {
-      @include zen-grid-item(2, 2);
-    }
-
-    &__left-sidebar,
-    &__first-left-sidebar,
-    &__second-left-sidebar {
-      @include zen-new-row(right);
-      @include zen-grid-item(1, 3, right);
-    }
-
-    &__right-sidebar {
-      @include zen-new-row(right);
-      @include zen-grid-item(1, 1, right);
-    }
-
-    &__col-1,
-    &__col-x:nth-child(3n+1) {
-      @include zen-new-row(both);
-      @include zen-grid-item(1, 1);
-    }
-
-    &__col-2,
-    &__col-x:nth-child(3n+2) {
-      @include zen-new-row(none);
-      @include zen-grid-item(1, 2);
-    }
-
-    &__col-3,
-    &__col-x:nth-child(3n) {
-      @include zen-new-row(none);
-      @include zen-grid-item(1, 3);
-    }
-
-    &__col-4 {
-      display: none;
-    }
-  }
-
-  // Place last so it can override the padding of grid items.
-  &__grid-item-container {
-    @include zen-grid-container($context: grid-item);
-  }
-}
+//.layout-3col,
+//%layout-3col {
+//  // We set the context to flow, so that this container can be used in most
+//  // places in the HTML, i.e. it must be nested inside something that has
+//  // padding.
+//  @include zen-grid-container($context: flow);
+//
+//  &__full,
+//  &__left-content,
+//  &__right-content,
+//  &__left-sidebar,
+//  &__right-sidebar,
+//  &__first-left-sidebar,
+//  &__second-left-sidebar,
+//  &__col-1,
+//  &__col-2,
+//  &__col-3,
+//  &__col-4,
+//  &__col-x {
+//    @include zen-new-row(both);
+//    @include zen-grid-item-base();
+//    @include zen-grid-item(1, 1);
+//  }
+//
+//  @include zen-respond-to(m) {
+//    // Since our container's context is "flow" and we changed the gutter size,
+//    // we need to re-apply the container's negative left/right margins.
+//    @include zen-grid-container($context: flow);
+//
+//    &__full,
+//    &__left-content,
+//    &__right-content,
+//    &__left-sidebar,
+//    &__right-sidebar {
+//      @include zen-grid-item(2, 1);
+//      // Since we changed the gutter size for this media query, we need to
+//      // re-apply the padding to every grid item.
+//      @include zen-apply-gutter-padding();
+//    }
+//
+//    &__first-left-sidebar,
+//    &__col-1,
+//    &__col-3,
+//    &__col-x:nth-child(2n + 1) {
+//      @include zen-grid-item(1, 1);
+//      @include zen-apply-gutter-padding();
+//    }
+//
+//    &__second-left-sidebar,
+//    &__col-2,
+//    &__col-4,
+//    &__col-x:nth-child(2n) {
+//      // Since this inherits from the mobile layout, we have to explicitly turn
+//      // off the new-row mixin.
+//      @include zen-new-row(none);
+//      @include zen-grid-item(1, 2);
+//      @include zen-apply-gutter-padding();
+//    }
+//  }
+//
+//  @include zen-respond-to(xl) {
+//    &__full {
+//      @include zen-grid-item(3, 1);
+//    }
+//
+//    &__left-content {
+//      @include zen-grid-item(2, 1);
+//    }
+//
+//    &__right-content {
+//      @include zen-grid-item(2, 2);
+//    }
+//
+//    &__left-sidebar,
+//    &__first-left-sidebar,
+//    &__second-left-sidebar {
+//      @include zen-new-row(right);
+//      @include zen-grid-item(1, 3, right);
+//    }
+//
+//    &__right-sidebar {
+//      @include zen-new-row(right);
+//      @include zen-grid-item(1, 1, right);
+//    }
+//
+//    &__col-1,
+//    &__col-x:nth-child(3n+1) {
+//      @include zen-new-row(both);
+//      @include zen-grid-item(1, 1);
+//    }
+//
+//    &__col-2,
+//    &__col-x:nth-child(3n+2) {
+//      @include zen-new-row(none);
+//      @include zen-grid-item(1, 2);
+//    }
+//
+//    &__col-3,
+//    &__col-x:nth-child(3n) {
+//      @include zen-new-row(none);
+//      @include zen-grid-item(1, 3);
+//    }
+//
+//    &__col-4 {
+//      display: none;
+//    }
+//  }
+//
+//  // Place last so it can override the padding of grid items.
+//  &__grid-item-container {
+//    @include zen-grid-container($context: grid-item);
+//  }
+//}

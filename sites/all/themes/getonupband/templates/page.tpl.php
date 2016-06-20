@@ -12,36 +12,36 @@
 
   <header class="header" role="banner">
 
-    <div class="layout-3col__col-1 header-one">
+    <div class="header-two">
+      <?php if ($logo): ?>
+        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
+      <?php endif; ?>
+
+      <?php if ($site_name || $site_slogan): ?>
+        <div class="header__name-and-slogan">
+          <?php if ($site_name): ?>
+            <h1 class="header__site-name">
+              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" class="header__site-link" rel="home"><span><?php print $site_name; ?></span></a>
+            </h1>
+          <?php endif; ?>
+
+          <?php if ($site_slogan): ?>
+            <div class="header__site-slogan"><?php print $site_slogan; ?></div>
+          <?php endif; ?>
+        </div>
+      <?php endif; ?>
+    </div>
+
+    <div class="header-one">
       <?php print render($page['header_one']); ?>
     </div>
 
-      <div class="layout-3col__col-2">
-        <?php if ($logo): ?>
-          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
-        <?php endif; ?>
-
-        <?php if ($site_name || $site_slogan): ?>
-          <div class="header__name-and-slogan">
-            <?php if ($site_name): ?>
-              <h1 class="header__site-name">
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" class="header__site-link" rel="home"><span><?php print $site_name; ?></span></a>
-              </h1>
-            <?php endif; ?>
-
-            <?php if ($site_slogan): ?>
-              <div class="header__site-slogan"><?php print $site_slogan; ?></div>
-            <?php endif; ?>
-          </div>
-        <?php endif; ?>
-      </div>
-
-      <div class="layout-3col__col-3 header-three">
+      <div class="header-three">
         <?php print render($page['header_three']); ?>
       </div>
   </header>
 
-  </div>
+</div>
 
   <div class="super-nav">
     <div class="layout-center">
@@ -53,7 +53,7 @@
     <?php print render($page['highlighted']); ?>
   </div>
 
-  <div class="layout-center">
+<div class="layout-center">
 
   <div class="layout-3col layout-swap main-content">
 
@@ -133,7 +133,6 @@
         <?php print $sidebar_second; ?>
       </aside>
     <?php endif; ?>
-
   </div>
 
   <?php print render($page['footer']); ?>
