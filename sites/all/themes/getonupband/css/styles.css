@@ -457,7 +457,15 @@ th {
   padding: 0;
 }
 
-.tabs__tab-link {
+.tabs__tab-link,
+.button,
+button,
+[type='button'],
+[type='reset'],
+[type='submit'],
+.messages--warning,
+.messages.warning,
+.warning {
   color: black !important;
 }
 
@@ -465,12 +473,6 @@ th {
 .tabs__tab-link.is-active,
 .tabs__tab-link--is-active {
   background: #BD5621 !important;
-}
-
-.messages--warning,
-.messages.warning,
-.warning {
-  color: initial;
 }
 
 .layout-center {
@@ -1893,6 +1895,58 @@ header.header .header-three {
 .footer-bg {
   width: 100%;
   background-color: #4a1b1c;
+}
+
+.footer-bg .footer-one {
+  float: left;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: -100%;
+}
+
+[dir="rtl"] .footer-bg .footer-one {
+  float: right;
+  margin-right: 0%;
+  margin-left: -100%;
+}
+
+.footer-bg .footer-two {
+  float: left;
+  width: 25%;
+  margin-left: 25%;
+  margin-right: -100%;
+}
+
+[dir="rtl"] .footer-bg .footer-two {
+  float: right;
+  margin-right: 25%;
+  margin-left: -100%;
+}
+
+.footer-bg .footer-three {
+  float: left;
+  width: 25%;
+  margin-left: 50%;
+  margin-right: -100%;
+}
+
+[dir="rtl"] .footer-bg .footer-three {
+  float: right;
+  margin-right: 50%;
+  margin-left: -100%;
+}
+
+.footer-bg .footer-four {
+  float: left;
+  width: 25%;
+  margin-left: 75%;
+  margin-right: -100%;
+}
+
+[dir="rtl"] .footer-bg .footer-four {
+  float: right;
+  margin-right: 75%;
+  margin-left: -100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

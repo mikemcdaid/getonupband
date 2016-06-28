@@ -1,4 +1,12 @@
-.tabs__tab-link {
+.tabs__tab-link,
+.button,
+button,
+[type='button'],
+[type='reset'],
+[type='submit'],
+.messages--warning,
+.messages.warning,
+.warning{
   color: black!important;
 }
 
@@ -8,8 +16,3 @@
   background: color(orange)!important;
 }
 
-.messages--warning,
-.messages.warning,
-.warning {
-  color: initial;
-}

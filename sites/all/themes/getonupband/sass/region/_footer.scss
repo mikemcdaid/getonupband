@@ -1,5 +1,16 @@
 .footer-bg {
   width: 100%;
-  //background: #2f3138;
   background-color: color(secondary);
+  .footer-one {
+    @include zen-grid-item(3, 1);
+  }
+  .footer-two {
+    @include zen-grid-item(3, 4);
+  }
+  .footer-three {
+    @include zen-grid-item(3, 7);
+  }
+  .footer-four {
+    @include zen-grid-item(3, 10);
+  }
 }

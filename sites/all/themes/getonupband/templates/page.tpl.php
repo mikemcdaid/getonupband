@@ -111,9 +111,20 @@
 </div>
 
 <div class="footer-bg">
+<!--  --><?php //dpm($page['footer']); ?>
   <div class="layout-center">
-    <?php print render($page['footer']); ?>
-    <?php print render($page['bottom']); ?>
+    <div class="footer-one">
+      <?php print render($page['footer_one']); ?>
+    </div>
+    <div class="footer-two">
+      <?php print render($page['footer_two']); ?>
+    </div>
+    <div class="footer-three">
+      <?php print render($page['footer_three']); ?>
+    </div>
+    <div class="footer-four">
+      <?php print render($page['footer_four']); ?>
+    </div>
   </div>
 </div>
 

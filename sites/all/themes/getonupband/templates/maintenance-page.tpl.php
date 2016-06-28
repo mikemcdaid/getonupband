@@ -28,8 +28,6 @@
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
 
-<div class="page layout-center">
-
   <header class="header" role="banner">
 
     <?php if ($logo): ?>
@@ -53,6 +51,8 @@
     <?php print $header; ?>
 
   </header>
+
+  <div class="page layout-center">
 
   <div class="main">
 
