@@ -1893,6 +1893,7 @@ header.header .header-three {
 }
 
 .footer-bg {
+  display: inline-block;
   width: 100%;
   background-color: #4a1b1c;
 }
