@@ -21,7 +21,6 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  background-color: #4a1b1c;
 }
 
 article,
@@ -455,6 +454,22 @@ table {
 td,
 th {
   padding: 0;
+}
+
+.tabs__tab-link {
+  color: black !important;
+}
+
+.tabs__tab-link:active,
+.tabs__tab-link.is-active,
+.tabs__tab-link--is-active {
+  background: #BD5621 !important;
+}
+
+.messages--warning,
+.messages.warning,
+.warning {
+  color: initial;
 }
 
 .layout-center {
@@ -1872,6 +1887,11 @@ header.header .header-three {
 .layout-center.main-content {
   background-color: #6F292A;
   padding-top: 0;
+}
+
+.footer-bg {
+  width: 100%;
+  background-color: #4a1b1c;
 }
 
 /*# sourceMappingURL=styles.css.map */

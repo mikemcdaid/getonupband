@@ -1,0 +1,15 @@
+.tabs__tab-link {
+  color: black!important;
+}
+
+.tabs__tab-link:active,
+.tabs__tab-link.is-active,
+.tabs__tab-link--is-active {
+  background: color(orange)!important;
+}
+
+.messages--warning,
+.messages.warning,
+.warning {
+  color: initial;
+}
