@@ -1948,7 +1948,7 @@ header.header .header-three {
   color: #e38d61;
 }
 
-.footer-bg a:hover, .footer-bg a:active {
+.footer-bg a:hover, .footer-bg a.active {
   color: #BD5621;
 }
 
