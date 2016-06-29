@@ -2,16 +2,104 @@
   display: inline-block;
   width: 100%;
   background-color: color(secondary);
+  padding: 20px 0;
+  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  text-align: center;
+
+  @include zen-respond-to(xs) {
+    text-align: left;
+  }
+
+  span {
+    font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  }
+
+  ul {
+    padding: 0 0 0 0;
+    @include zen-respond-to(xs) {
+      padding: 0 0 0 20px;
+      margin: 15px 0;
+    }
+    @include zen-respond-to(l) {
+      margin: 0;
+    }
+    li {
+      list-style: none;
+    }
+  }
+
+  p {margin: 0;}
+
+  a {
+    color: #e38d61;
+    text-decoration: none;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    &:visited {
+      color: #e38d61;
+    }
+    &:hover {
+      color: color(orange);
+    }
+  }
   .footer-one {
-    @include zen-grid-item(3, 1);
+
+    @include zen-respond-to(xs) {
+      @include zen-grid-item(6, 1);
+      min-height: 200px;
+      border-left: solid 1px color(primary);
+      border-right: solid 1px color(primary);
+      border-bottom: solid 1px color(primary);
+      padding-left: 20px;
+    }
+    @include zen-respond-to(l) {
+      @include zen-grid-item(3, 1);
+      border-bottom: none;
+    }
+
   }
   .footer-two {
-    @include zen-grid-item(3, 4);
+
+    @include zen-respond-to(xs) {
+      @include zen-grid-item(6, 7);
+      min-height: 200px;
+      border-right: solid 1px color(primary);
+      border-bottom: solid 1px color(primary);
+      padding-left: 20px;
+    }
+    @include zen-respond-to(l) {
+      @include zen-grid-item(3, 4);
+      border-bottom: none;
+    }
   }
   .footer-three {
-    @include zen-grid-item(3, 7);
+
+    @include zen-respond-to(xs) {
+      @include zen-grid-item(6, 1);
+      @include zen-new-row();
+      min-height: 200px;
+      border-left: solid 1px color(primary);
+      border-right: solid 1px color(primary);
+    }
+
+    @include zen-respond-to(l) {
+      @include zen-grid-item(3, 7);
+      @include zen-new-row(none);
+    }
+
   }
   .footer-four {
-    @include zen-grid-item(3, 10);
+
+    @include zen-respond-to(xs) {
+      @include zen-grid-item(6, 7);
+      min-height: 200px;
+      border-right: solid 1px color(primary);
+    }
+
+    @include zen-respond-to(l) {
+      @include zen-grid-item(3, 10);
+    }
+
   }
 }
