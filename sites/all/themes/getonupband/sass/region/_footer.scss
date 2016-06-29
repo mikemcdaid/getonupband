@@ -39,7 +39,8 @@
     &:visited {
       color: #e38d61;
     }
-    &:hover {
+    &:hover,
+    &:active {
       color: color(orange);
     }
   }
