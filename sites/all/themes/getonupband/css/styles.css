@@ -1717,6 +1717,7 @@ tr.drag-previous {
     width: 33.33333%;
     margin-right: 0%;
     margin-left: -100%;
+    padding-left: 30px;
   }
   [dir="rtl"] form#webform-client-form-4 {
     float: left;
