@@ -1,0 +1,13 @@
+.view-homepage-about-us {
+  @include zen-grid-container;
+  .about-us {
+    @include zen-respond-to(m) {
+      @include zen-grid-item(8, 1);
+    }
+  }
+  .band-members {
+    @include zen-respond-to(m) {
+      @include zen-grid-item(4, 1, right);
+    }
+  }
+}
