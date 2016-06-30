@@ -89,7 +89,8 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php if ($is_front): ?>
-      <?php print views_embed_view('homepage_promo_s', 'block'); ?>
+      <div><?php print views_embed_view('homepage_promo_s', 'block'); ?></div>
+      <div><?php print views_embed_view('homepage_videos', 'block'); ?></div>
       <?php endif; ?>
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
