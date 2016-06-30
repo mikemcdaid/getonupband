@@ -1,11 +1,22 @@
 .view-homepage-videos {
   margin-bottom: 40px;
   float: left;
+  @include zen-respond-to(m) {
+    @include zen-grid-item(8, 1);
+  }
   .bx-wrapper .bx-viewport {
     border: 5px solid color(primary);
     background: color(primary);
     -webkit-box-shadow: none;
     box-shadow: none;
+  }
+}
+
+
+form#webform-client-form-4 {
+
+  @include zen-respond-to(m) {
+    @include zen-grid-item(4, 1, right);
   }
 }
 
