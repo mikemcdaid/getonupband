@@ -71,3 +71,14 @@ a:hover {
     content: '';
   }
 }
+
+.button,
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  //color: color(orange)!important;
+  border: solid 3px #FFF;
+  background-color: transparent;
+  padding: 6px 15px!important;
+}

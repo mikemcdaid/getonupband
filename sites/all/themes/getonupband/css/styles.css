@@ -99,6 +99,16 @@ a:hover {
   }
 }
 
+.button,
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  border: solid 3px #FFF;
+  background-color: transparent;
+  padding: 6px 15px !important;
+}
+
 h1,
 .header__site-name {
   font-size: 2rem;
@@ -458,11 +468,6 @@ th {
 }
 
 .tabs__tab-link,
-.button,
-button,
-[type='button'],
-[type='reset'],
-[type='submit'],
 .messages--warning,
 .messages.warning,
 .warning {
@@ -2276,6 +2281,10 @@ header.header .header-three {
   border: 5px solid #6F292A;
   background: #6F292A;
   box-shadow: none;
+}
+
+.view-homepage-videos .bx-wrapper .bx-next {
+  right: 20px;
 }
 
 @media (min-width: 777px) {
