@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ff877f4-15d7-449f-8327-7c7f8c23b3de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_testimonials.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css.map" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/getonupband.info" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/getonupband.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/styles.scss" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/styles.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_homepage-videos.scss" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_homepage-videos.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/templates/page.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/templates/page.tpl.php" />
     </list>
     <ignored path="public_html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +30,8 @@
       <file leaf-file-name="_homepage-videos.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_homepage-videos.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.028248588">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.19774011">
+              <caret line="7" column="7" selection-start-line="5" selection-start-column="3" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -919,8 +912,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_homepage-videos.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028248588">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.19774011">
+          <caret line="7" column="7" selection-start-line="5" selection-start-column="3" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
       </provider>
