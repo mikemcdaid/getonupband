@@ -88,6 +88,9 @@
       <?php if ($action_links): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
+      <?php if ($is_front): ?>
+      <?php print views_embed_view('homepage_promo_s', 'block'); ?>
+      <?php endif; ?>
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
     </main>
