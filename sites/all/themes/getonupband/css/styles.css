@@ -2258,43 +2258,54 @@ header.header .header-three {
   }
 }
 
-.view-homepage-videos {
+.hp-galleries:before {
+  content: "";
+  display: table;
+}
+
+.hp-galleries:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hp-galleries .view-homepage-videos {
   margin-bottom: 40px;
   float: left;
 }
 
 @media (min-width: 777px) {
-  .view-homepage-videos {
+  .hp-galleries .view-homepage-videos {
     float: left;
     width: 66.66667%;
     margin-left: 0%;
     margin-right: -100%;
   }
-  [dir="rtl"] .view-homepage-videos {
+  [dir="rtl"] .hp-galleries .view-homepage-videos {
     float: right;
     margin-right: 0%;
     margin-left: -100%;
   }
 }
 
-.view-homepage-videos .bx-wrapper .bx-viewport {
+.hp-galleries .view-homepage-videos .bx-wrapper .bx-viewport {
   border: 5px solid #6F292A;
   background: #6F292A;
   box-shadow: none;
 }
 
-.view-homepage-videos .bx-wrapper .bx-next {
+.hp-galleries .view-homepage-videos .bx-wrapper .bx-next {
   right: 20px;
 }
 
 @media (min-width: 777px) {
-  form#webform-client-form-4 {
+  .hp-galleries form#webform-client-form-4 {
     float: right;
     width: 33.33333%;
     margin-right: 0%;
     margin-left: -100%;
   }
-  [dir="rtl"] form#webform-client-form-4 {
+  [dir="rtl"] .hp-galleries form#webform-client-form-4 {
     float: left;
     margin-left: 0%;
     margin-right: -100%;
@@ -2344,6 +2355,20 @@ header.header .header-three {
     float: left;
     margin-left: 0%;
     margin-right: -100%;
+  }
+}
+
+@media (min-width: 777px) {
+  .testimonials {
+    float: left;
+    width: 66.66667%;
+    margin-left: 0%;
+    margin-right: -100%;
+  }
+  [dir="rtl"] .testimonials {
+    float: right;
+    margin-right: 0%;
+    margin-left: -100%;
   }
 }
 

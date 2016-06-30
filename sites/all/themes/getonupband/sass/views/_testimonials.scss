@@ -1,0 +1,5 @@
+.testimonials {
+  @include zen-respond-to(m) {
+    @include zen-grid-item(8, 1);
+  }
+}
