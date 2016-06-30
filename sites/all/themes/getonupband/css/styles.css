@@ -2239,4 +2239,15 @@ header.header .header-three {
   }
 }
 
+.view-homepage-videos {
+  margin-bottom: 40px;
+  float: left;
+}
+
+.view-homepage-videos .bx-wrapper .bx-viewport {
+  border: 5px solid #6F292A;
+  background: #6F292A;
+  box-shadow: none;
+}
+
 /*# sourceMappingURL=styles.css.map */
