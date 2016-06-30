@@ -1,5 +1,7 @@
 .testimonials {
   @include zen-respond-to(m) {
     @include zen-grid-item(8, 1);
+    padding-right: 30px;
+    border-right: solid 1px color(secondary);
   }
 }

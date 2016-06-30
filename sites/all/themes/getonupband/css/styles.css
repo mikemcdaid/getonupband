@@ -2336,6 +2336,8 @@ header.header .header-three {
     width: 66.66667%;
     margin-left: 0%;
     margin-right: -100%;
+    padding-right: 30px;
+    border-right: solid 1px #4a1b1c;
   }
   [dir="rtl"] .testimonials {
     float: right;
