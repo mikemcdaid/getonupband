@@ -2301,6 +2301,10 @@ header.header .header-three {
   }
 }
 
+.view-homepage-about-us {
+  margin-bottom: 40px;
+}
+
 .view-homepage-about-us:before {
   content: "";
   display: table;
@@ -2334,6 +2338,7 @@ header.header .header-three {
     width: 33.33333%;
     margin-right: 0%;
     margin-left: -100%;
+    padding-left: 30px;
   }
   [dir="rtl"] .view-homepage-about-us .band-members {
     float: left;
