@@ -2295,6 +2295,34 @@ header.header .header-three {
   margin: 0;
 }
 
+@media (min-width: 777px) {
+  .hp-galleries div#block-views-homepage-galleries-block {
+    float: left;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: -100%;
+  }
+  [dir="rtl"] .hp-galleries div#block-views-homepage-galleries-block {
+    float: right;
+    margin-right: 0%;
+    margin-left: -100%;
+  }
+}
+
+@media (min-width: 777px) {
+  .hp-galleries div#block-views-homepage-galleries-block-1 {
+    float: right;
+    width: 50%;
+    margin-right: 0%;
+    margin-left: -100%;
+  }
+  [dir="rtl"] .hp-galleries div#block-views-homepage-galleries-block-1 {
+    float: left;
+    margin-left: 0%;
+    margin-right: -100%;
+  }
+}
+
 .view-homepage-about-us {
   margin-bottom: 40px;
 }
