@@ -2108,6 +2108,7 @@ header.header .header-three {
 .view-homepage-promo-s {
   padding: 50px 0;
   text-align: center;
+  border-bottom: solid 1px #4a1b1c;
 }
 
 .view-homepage-promo-s:before {
@@ -2277,7 +2278,6 @@ header.header .header-three {
 }
 
 .hp-galleries .view-homepage-galleries {
-  margin-bottom: 40px;
   float: left;
 }
 
@@ -2285,6 +2285,10 @@ header.header .header-three {
   border: 5px solid #6F292A;
   background: #6F292A;
   box-shadow: none;
+}
+
+.hp-galleries .view-homepage-galleries .bx-wrapper .bx-pager {
+  bottom: -45px;
 }
 
 .hp-galleries .view-homepage-galleries .bx-wrapper .bx-next {
@@ -2295,36 +2299,10 @@ header.header .header-three {
   margin: 0;
 }
 
-@media (min-width: 777px) {
-  .hp-galleries div#block-views-homepage-galleries-block {
-    float: left;
-    width: 50%;
-    margin-left: 0%;
-    margin-right: -100%;
-  }
-  [dir="rtl"] .hp-galleries div#block-views-homepage-galleries-block {
-    float: right;
-    margin-right: 0%;
-    margin-left: -100%;
-  }
-}
-
-@media (min-width: 777px) {
-  .hp-galleries div#block-views-homepage-galleries-block-1 {
-    float: right;
-    width: 50%;
-    margin-right: 0%;
-    margin-left: -100%;
-  }
-  [dir="rtl"] .hp-galleries div#block-views-homepage-galleries-block-1 {
-    float: left;
-    margin-left: 0%;
-    margin-right: -100%;
-  }
-}
-
 .view-homepage-about-us {
-  margin-bottom: 40px;
+  padding: 50px 0;
+  text-align: center;
+  border-bottom: solid 1px #4a1b1c;
 }
 
 .view-homepage-about-us:before {
@@ -2339,33 +2317,74 @@ header.header .header-three {
 }
 
 @media (min-width: 777px) {
+  .view-homepage-about-us {
+    text-align: left;
+  }
+}
+
+.view-homepage-about-us h2 {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: inherit;
+}
+
+@media (min-width: 777px) {
   .view-homepage-about-us .about-us {
-    float: left;
+    float: right;
     width: 66.66667%;
+    margin-right: 0%;
+    margin-left: -100%;
+    padding-left: 30px;
+    border-left: solid 1px #4a1b1c;
+  }
+  [dir="rtl"] .view-homepage-about-us .about-us {
+    float: left;
+    margin-left: 0%;
+    margin-right: -100%;
+  }
+}
+
+.view-homepage-about-us .about-us:before {
+  font-family: FontAwesome;
+  content: "\f135";
+  margin-right: 15px;
+  font-size: 3em;
+  display: inline-block;
+}
+
+@media (min-width: 777px) {
+  .view-homepage-about-us .about-us:before {
+    float: left;
+  }
+}
+
+@media (min-width: 777px) {
+  .view-homepage-about-us .band-members {
+    float: left;
+    width: 33.33333%;
     margin-left: 0%;
     margin-right: -100%;
     padding-right: 30px;
-    border-right: solid 1px #4a1b1c;
   }
-  [dir="rtl"] .view-homepage-about-us .about-us {
+  [dir="rtl"] .view-homepage-about-us .band-members {
     float: right;
     margin-right: 0%;
     margin-left: -100%;
   }
 }
 
+.view-homepage-about-us .band-members:before {
+  font-family: FontAwesome;
+  content: "\f0c0";
+  margin-right: 15px;
+  font-size: 3em;
+  display: inline-block;
+}
+
 @media (min-width: 777px) {
-  .view-homepage-about-us .band-members {
-    float: right;
-    width: 33.33333%;
-    margin-right: 0%;
-    margin-left: -100%;
-    padding-left: 30px;
-  }
-  [dir="rtl"] .view-homepage-about-us .band-members {
+  .view-homepage-about-us .band-members:before {
     float: left;
-    margin-left: 0%;
-    margin-right: -100%;
   }
 }
 

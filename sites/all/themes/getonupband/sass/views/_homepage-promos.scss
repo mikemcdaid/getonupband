@@ -1,6 +1,7 @@
 .view-homepage-promo-s {
   padding: 50px 0;
   text-align: center;
+  border-bottom: solid 1px color(secondary);
 
   @include zen-grid-container;
   @include zen-respond-to(m) {

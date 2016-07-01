@@ -1,17 +1,50 @@
 .view-homepage-about-us {
+  padding: 50px 0;
+  text-align: center;
+  border-bottom: solid 1px color(secondary);
+
   @include zen-grid-container;
-  margin-bottom: 40px;
+  @include zen-respond-to(m) {
+    text-align: left;
+  }
+
+  h2 {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: inherit;
+  }
   .about-us {
     @include zen-respond-to(m) {
-      @include zen-grid-item(8, 1);
-      padding-right: 30px;
-      border-right: solid 1px color(secondary);
+      @include zen-grid-item(8, 1, right);
+      padding-left: 30px;
+      border-left: solid 1px color(secondary);
+    }
+    &:before {
+      font-family: FontAwesome;
+      content: "\f135";
+      margin-right: 15px;
+      font-size: 3em;
+      display: inline-block;
+      @include zen-respond-to(m) {
+        float: left;
+      }
     }
   }
   .band-members {
     @include zen-respond-to(m) {
-      @include zen-grid-item(4, 1, right);
-      padding-left: 30px;
+      @include zen-grid-item(4, 1);
+      padding-right: 30px;
+    }
+    &:before {
+      font-family: FontAwesome;
+      content: "\f0c0";
+      margin-right: 15px;
+      font-size: 3em;
+      display: inline-block;
+      @include zen-respond-to(m) {
+        float: left;
+      }
     }
   }
 }
