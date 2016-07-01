@@ -37,12 +37,13 @@
       padding-right: 30px;
     }
     .views-row {
-      margin-top: 31px;
+      margin: 30px 0;
     }
     img {
       float: left;
-      //margin-top: 31px;
+      margin-top: 11px;
       margin-right: 20px;
+      border: solid 1px color(secondary);
     }
     .views-field.views-field-title {
       display: inline-block;
