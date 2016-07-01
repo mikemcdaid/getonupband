@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ff877f4-15d7-449f-8327-7c7f8c23b3de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css.map" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_about-us.scss" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_about-us.scss" />
     </list>
     <ignored path="public_html.iws" />
@@ -54,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_about-us.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5480226">
-              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -953,7 +950,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_about-us.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5480226">
-          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           <folding />
         </state>
       </provider>
