@@ -29,6 +29,7 @@ ul#superfish-1 {
 ul#superfish-1-accordion.superfish-processed.sf-accordion.sf-expanded{
     background-color: color(secondary);
     margin-top: 5px;
+    z-index: 1000;
     li a {
         color: #FFF;
         text-decoration: none;

@@ -940,6 +940,7 @@ ul#superfish-1 li a:hover {
 ul#superfish-1-accordion.superfish-processed.sf-accordion.sf-expanded {
   background-color: #4a1b1c;
   margin-top: 5px;
+  z-index: 1000;
 }
 
 ul#superfish-1-accordion.superfish-processed.sf-accordion.sf-expanded li a {
