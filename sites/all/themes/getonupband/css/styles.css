@@ -1745,26 +1745,15 @@ header.header {
   background-color: #FFF;
 }
 
-@media (min-width: 555px) {
-  header.header {
-    margin-left: -12px;
-    margin-right: -13px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  header.header:before {
-    content: "";
-    display: table;
-  }
-  header.header:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  [dir="rtl"] header.header {
-    margin-left: -13px;
-    margin-right: -12px;
-  }
+header.header:before {
+  content: "";
+  display: table;
+}
+
+header.header:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 header.header .header-one,
@@ -1869,30 +1858,30 @@ header.header .header-two {
 }
 
 header.header .header-three {
-  float: left;
+  float: right;
   width: 50%;
-  margin-left: 50%;
-  margin-right: -100%;
+  margin-right: 0%;
+  margin-left: -100%;
 }
 
 [dir="rtl"] header.header .header-three {
-  float: right;
-  margin-right: 50%;
-  margin-left: -100%;
+  float: left;
+  margin-left: 0%;
+  margin-right: -100%;
 }
 
 @media (min-width: 555px) {
   header.header .header-three {
     text-align: right;
-    float: left;
+    float: right;
     width: 33.33333%;
-    margin-left: 66.66667%;
-    margin-right: -100%;
+    margin-right: 0%;
+    margin-left: -100%;
   }
   [dir="rtl"] header.header .header-three {
-    float: right;
-    margin-right: 66.66667%;
-    margin-left: -100%;
+    float: left;
+    margin-left: 0%;
+    margin-right: -100%;
   }
 }
 

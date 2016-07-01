@@ -3,9 +3,7 @@
 header.header {
   padding: 20px 0;
   background-color: #FFF;
-  @include zen-respond-to(xs) {
-    @include zen-grid-container($context: flow);
-  }
+  @include zen-grid-container;
 
     .header-one,
     .header-three {
@@ -14,7 +12,6 @@ header.header {
       margin-top: 20px;
       a {
         color: color(orange);
-        //text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
         text-decoration: none;
         font-size: 3em;
       }
@@ -30,27 +27,57 @@ header.header {
       }
     }
 
-    .header-one {
-      @include zen-new-row();
-      @include zen-grid-item(6, 1);
-      @include zen-respond-to(xs) {
-        @include zen-new-row(none);
-        text-align: left;
-        @include zen-grid-item(4, 1);
-      }
+  .header-one {
+    @include zen-new-row();
+
+    @include zen-grid-item(6, 1);
+
+    @include zen-respond-to(xs) {
+      @include zen-new-row(none);
+      text-align: left;
+      @include zen-grid-item(4, 1);
     }
-    .header-two {
-      //img {width: 300px;}
-      @include zen-grid-item(12, 1);
-      @include zen-respond-to(xs) {
-        @include zen-grid-item(4, 5);
-      }
+  }
+
+  .header-two {
+    @include zen-grid-item(12, 1);
+
+    @include zen-respond-to(xs) {
+      @include zen-grid-item(4, 5);
     }
-    .header-three {
-      @include zen-grid-item(6, 7);
-      @include zen-respond-to(xs) {
-        text-align: right;
-        @include zen-grid-item(4, 9);
-      }
+  }
+
+  .header-three {
+    @include zen-grid-item(6, 1, right);
+
+    @include zen-respond-to(xs) {
+      text-align: right;
+      @include zen-grid-item(4, 1, right);
     }
+  }
+
+    //.header-one {
+    //  @include zen-new-row();
+    //  @include zen-grid-item(6, 1);
+    //  @include zen-respond-to(xs) {
+    //    @include zen-new-row(none);
+    //    text-align: left;
+    //    @include zen-grid-item(4, 1);
+    //  }
+    //}
+    //.header-two {
+    //  //img {width: 300px;}
+    //  @include zen-grid-item(12, 1);
+    //  @include zen-respond-to(xs) {
+    //    @include zen-grid-item(4, 5);
+    //  }
+    //}
+    //.header-three {
+    //  @include zen-grid-item(6, 7);
+    //  @include zen-respond-to(xs) {
+    //    text-align: right;
+    //    @include zen-grid-item(4, 9);
+    //  }
+    //}
+
   }
