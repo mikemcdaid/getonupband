@@ -4,13 +4,13 @@
   padding-left: 20px;
   padding-right: 20px;
   .view-homepage-galleries {
-    //margin-bottom: 40px;
+    max-width: 570px;
+    margin: 0 auto;
 
-    //float: left;
-
-    //max-width: 310px;
-
-
+    @include zen-respond-to(xxxl) {
+      max-width: 100%;
+    }
+    
     .bx-wrapper .bx-viewport {
       border: 5px solid color(primary);
       background: color(primary);

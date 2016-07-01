@@ -2293,6 +2293,17 @@ header.header .header-three {
   clear: both;
 }
 
+.hp-galleries .view-homepage-galleries {
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1222px) {
+  .hp-galleries .view-homepage-galleries {
+    max-width: 100%;
+  }
+}
+
 .hp-galleries .view-homepage-galleries .bx-wrapper .bx-viewport {
   border: 5px solid #6F292A;
   background: #6F292A;
