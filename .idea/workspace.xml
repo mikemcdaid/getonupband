@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ff877f4-15d7-449f-8327-7c7f8c23b3de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/region/_content-bottom.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/styles.scss" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css.map" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/css/styles.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/base/links/_links.scss" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/base/links/_links.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/forms/button/_button.scss" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/forms/button/_button.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_about-us.scss" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_about-us.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_homepage-promos.scss" afterPath="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_homepage-promos.scss" />
     </list>
     <ignored path="public_html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,16 +43,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/templates/page.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5294118">
-              <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_main-content.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/region/_main-content.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_about-us.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_about-us.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_about-us.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.2937853">
+              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -81,8 +76,8 @@
       <file leaf-file-name="_homepage-promos.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_homepage-promos.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="8" column="3" selection-start-line="2" selection-start-column="2" selection-end-line="8" selection-end-column="3" />
+            <state vertical-scroll-proportion="-16.25">
+              <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -108,21 +103,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_layout-center.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/layouts/layout-center/_layout-center.scss">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.5">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state vertical-scroll-proportion="-6.9411764">
+              <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/styles.scss">
+      <file leaf-file-name="_button.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/forms/button/_button.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64285713">
-              <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+            <state vertical-scroll-proportion="-9.625">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_links.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/base/links/_links.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-46.25">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -157,17 +162,18 @@
         <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/region/_footer.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/base/_fonts.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/base/_admin.scss" />
-        <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/base/links/_links.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/getonupband/getonupband.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/getonupband/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_testimonials.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/forms/_homepage-wf.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/layouts/layout-center/_layout-center.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_homepage-videos.scss" />
-        <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_homepage-promos.scss" />
-        <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_about-us.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/region/_content-bottom.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/styles.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/base/links/_links.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/forms/button/_button.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_homepage-promos.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_about-us.scss" />
       </list>
     </option>
   </component>
@@ -456,40 +462,6 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="getonupband" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -587,14 +559,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/init/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/style-guide/chroma-kss-styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -877,14 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/base/links/_links.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.125">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/region/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.875">
@@ -957,22 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_homepage-promos.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="3" selection-start-line="2" selection-start-column="2" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_about-us.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/region/_content-bottom.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.25">
@@ -983,8 +923,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64285713">
+        <state vertical-scroll-proportion="-6.9411764">
           <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/base/links/_links.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-46.25">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/forms/button/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.625">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_homepage-promos.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/getonupband/sass/views/_about-us.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2937853">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding />
         </state>
       </provider>

@@ -99,16 +99,6 @@ a:hover {
   }
 }
 
-.button,
-button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
-  border: solid 3px #FFF;
-  background-color: transparent;
-  padding: 6px 15px !important;
-}
-
 h1,
 .header__site-name {
   font-size: 2rem;
@@ -344,8 +334,8 @@ button,
 html [type='button'],
 [type='reset'],
 [type='submit'] {
-  -moz-appearance: button;
-  -webkit-appearance: button;
+  -moz-appearance: inherit;
+  -webkit-appearance: inherit;
 }
 
 .button,
@@ -353,8 +343,10 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
+  border: solid 3px #FFF;
+  background-color: transparent;
+  padding: 6px 15px;
   display: inline-block;
-  padding: 2px 6px;
   line-height: inherit;
   text-decoration: none;
   cursor: pointer;
@@ -2213,6 +2205,7 @@ header.header .header-three {
     margin-left: -100%;
     border-bottom: solid 1px #4a1b1c;
     padding-left: 30px;
+    padding-bottom: 25px;
     margin-bottom: 0;
   }
   [dir="rtl"] .view-homepage-promo-s .events {
@@ -2376,6 +2369,23 @@ header.header .header-three {
     margin-right: 0%;
     margin-left: -100%;
   }
+}
+
+.view-homepage-about-us .band-members .views-row {
+  margin-top: 31px;
+}
+
+.view-homepage-about-us .band-members img {
+  float: left;
+  margin-right: 20px;
+}
+
+.view-homepage-about-us .band-members .views-field.views-field-title {
+  display: inline-block;
+}
+
+.view-homepage-about-us .band-members p {
+  margin: 0;
 }
 
 .view-homepage-about-us .band-members:before {

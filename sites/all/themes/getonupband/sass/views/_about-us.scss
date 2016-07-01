@@ -36,6 +36,18 @@
       @include zen-grid-item(4, 1);
       padding-right: 30px;
     }
+    .views-row {
+      margin-top: 31px;
+    }
+    img {
+      float: left;
+      //margin-top: 31px;
+      margin-right: 20px;
+    }
+    .views-field.views-field-title {
+      display: inline-block;
+    }
+    p {margin: 0;}
     &:before {
       font-family: FontAwesome;
       content: "\f0c0";

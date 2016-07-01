@@ -22,8 +22,8 @@ button,
 html [type='button'],
 [type='reset'],
 [type='submit'] {
-  -moz-appearance: button;
-  -webkit-appearance: button; // 2
+  -moz-appearance: inherit;
+  -webkit-appearance: inherit; // 2
 }
 
 .button,
@@ -33,9 +33,12 @@ button,
 [type='reset'],
 [type='submit'] {
   @extend %button--disabled;
+
+  border: solid 3px #FFF;
+  background-color: transparent;
+  padding: 6px 15px;
   // Some styles don't apply to <a> links since they are inline elements by default.
   display: inline-block;
-  padding: 2px 6px;
   // Address Firefox 4+ setting `line-height` on `input` using `!important` in
   // the UA stylesheet. And prevent its "line-height: normal" rule below from
   // breaking the "appearance: button" styling on the input elements.
@@ -87,3 +90,4 @@ button,
     color: color(button-disabled);
   }
 }
+
