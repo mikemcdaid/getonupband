@@ -1,6 +1,9 @@
 .hp-galleries {
   @include zen-grid-container;
-  .view-homepage-videos {
+  background: color(secondary);
+  padding-left: 20px;
+  padding-right: 20px;
+  .view-homepage-galleries {
     margin-bottom: 40px;
     float: left;
     //@include zen-respond-to(m) {
@@ -15,9 +18,12 @@
     .bx-wrapper .bx-next {
       right: 20px;
     }
+    .bx-viewport {
+      //height: 215px;
+    }
+    ul {margin: 0;}
   }
 }
-
 
 
 
