@@ -1,10 +1,10 @@
 .view-homepage-about-us {
-  padding: 50px 0;
   text-align: center;
   border-bottom: solid 1px color(secondary);
 
   @include zen-grid-container;
   @include zen-respond-to(m) {
+    padding: 50px 0;
     text-align: left;
   }
 
@@ -15,9 +15,15 @@
     line-height: inherit;
   }
   .about-us {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: solid 1px color(secondary);
     @include zen-respond-to(m) {
       @include zen-grid-item(8, 1, right);
+      border-bottom: none;
       padding-left: 30px;
+      padding-bottom: 25px;
+      margin-bottom: 0;
       border-left: solid 1px color(secondary);
     }
     &:before {
@@ -32,17 +38,25 @@
     }
   }
   .band-members {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
     @include zen-respond-to(m) {
       @include zen-grid-item(4, 1);
       padding-right: 30px;
+      padding-bottom: 0;
+      margin-bottom: 0;
     }
     .views-row {
       margin: 30px 0;
     }
     img {
-      float: left;
+      text-align: center;
       margin-right: 20px;
       border: solid 2px color(primary);
+      @include zen-respond-to(m) {
+        float: left;
+        text-align: left;
+      }
     }
     .views-field.views-field-title {
       display: inline-block;

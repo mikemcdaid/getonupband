@@ -1703,12 +1703,17 @@ tr.drag-previous {
   background-position: -11px center;
 }
 
+form#webform-client-form-4 {
+  text-align: center;
+}
+
 @media (min-width: 777px) {
   form#webform-client-form-4 {
     float: right;
     width: 33.33333%;
     margin-right: 0%;
     margin-left: -100%;
+    text-align: left;
     padding-left: 30px;
   }
   [dir="rtl"] form#webform-client-form-4 {
@@ -1716,6 +1721,14 @@ tr.drag-previous {
     margin-left: 0%;
     margin-right: -100%;
   }
+}
+
+form#webform-client-form-4 .form-item.webform-component.webform-component-markup.webform-component--header,
+form#webform-client-form-4 h2 {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: inherit;
 }
 
 body.maintenance-page.in-maintenance.no-sidebars {
@@ -2102,9 +2115,8 @@ header.header .header-three {
 }
 
 .view-homepage-promo-s {
-  padding: 50px 0;
+  padding: 50px 0 0 0;
   text-align: center;
-  border-bottom: solid 1px #4a1b1c;
 }
 
 .view-homepage-promo-s:before {
@@ -2120,7 +2132,9 @@ header.header .header-three {
 
 @media (min-width: 777px) {
   .view-homepage-promo-s {
+    padding: 50px 0;
     text-align: left;
+    border-bottom: solid 1px #4a1b1c;
   }
 }
 
@@ -2133,7 +2147,27 @@ header.header .header-three {
 
 .view-homepage-promo-s .services {
   margin-bottom: 40px;
+  padding-bottom: 40px;
   border-bottom: solid 1px #4a1b1c;
+}
+
+@media (min-width: 777px) {
+  .view-homepage-promo-s .services {
+    float: left;
+    width: 66.66667%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-right: 30px;
+    border-right: solid 1px #4a1b1c;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  [dir="rtl"] .view-homepage-promo-s .services {
+    float: right;
+    margin-right: 0%;
+    margin-left: -100%;
+  }
 }
 
 .view-homepage-promo-s .services:before {
@@ -2150,27 +2184,28 @@ header.header .header-three {
   }
 }
 
-@media (min-width: 777px) {
-  .view-homepage-promo-s .services {
-    float: left;
-    width: 66.66667%;
-    margin-left: 0%;
-    margin-right: -100%;
-    padding-right: 30px;
-    border-right: solid 1px #4a1b1c;
-    margin-bottom: 0;
-    border-bottom: none;
-  }
-  [dir="rtl"] .view-homepage-promo-s .services {
-    float: right;
-    margin-right: 0%;
-    margin-left: -100%;
-  }
-}
-
 .view-homepage-promo-s .events {
   margin-bottom: 40px;
+  padding-bottom: 40px;
   border-bottom: solid 1px #4a1b1c;
+}
+
+@media (min-width: 777px) {
+  .view-homepage-promo-s .events {
+    float: right;
+    width: 33.33333%;
+    margin-right: 0%;
+    margin-left: -100%;
+    border-bottom: solid 1px #4a1b1c;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+  }
+  [dir="rtl"] .view-homepage-promo-s .events {
+    float: left;
+    margin-left: 0%;
+    margin-right: -100%;
+  }
 }
 
 .view-homepage-promo-s .events:before {
@@ -2197,27 +2232,30 @@ header.header .header-three {
   }
 }
 
+.view-homepage-promo-s .repertoire {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: solid 1px #4a1b1c;
+}
+
 @media (min-width: 777px) {
-  .view-homepage-promo-s .events {
+  .view-homepage-promo-s .repertoire {
+    clear: right;
+    margin-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
     float: right;
     width: 33.33333%;
     margin-right: 0%;
     margin-left: -100%;
-    border-bottom: solid 1px #4a1b1c;
-    padding-left: 30px;
-    padding-bottom: 25px;
-    margin-bottom: 0;
   }
-  [dir="rtl"] .view-homepage-promo-s .events {
+  [dir="rtl"] .view-homepage-promo-s .repertoire {
     float: left;
     margin-left: 0%;
     margin-right: -100%;
   }
-}
-
-.view-homepage-promo-s .repertoire {
-  margin-bottom: 40px;
-  border-bottom: solid 1px #4a1b1c;
 }
 
 .view-homepage-promo-s .repertoire:before {
@@ -2236,25 +2274,6 @@ header.header .header-three {
 
 .view-homepage-promo-s .repertoire .views-field.views-field-title {
   margin-top: 15px;
-}
-
-@media (min-width: 777px) {
-  .view-homepage-promo-s .repertoire {
-    clear: right;
-    margin-top: 30px;
-    padding-left: 30px;
-    margin-bottom: 0;
-    border-bottom: none;
-    float: right;
-    width: 33.33333%;
-    margin-right: 0%;
-    margin-left: -100%;
-  }
-  [dir="rtl"] .view-homepage-promo-s .repertoire {
-    float: left;
-    margin-left: 0%;
-    margin-right: -100%;
-  }
 }
 
 .hp-galleries {
@@ -2297,7 +2316,6 @@ header.header .header-three {
 }
 
 .view-homepage-about-us {
-  padding: 50px 0;
   text-align: center;
   border-bottom: solid 1px #4a1b1c;
 }
@@ -2315,6 +2333,7 @@ header.header .header-three {
 
 @media (min-width: 777px) {
   .view-homepage-about-us {
+    padding: 50px 0;
     text-align: left;
   }
 }
@@ -2326,13 +2345,22 @@ header.header .header-three {
   line-height: inherit;
 }
 
+.view-homepage-about-us .about-us {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: solid 1px #4a1b1c;
+}
+
 @media (min-width: 777px) {
   .view-homepage-about-us .about-us {
     float: right;
     width: 66.66667%;
     margin-right: 0%;
     margin-left: -100%;
+    border-bottom: none;
     padding-left: 30px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
     border-left: solid 1px #4a1b1c;
   }
   [dir="rtl"] .view-homepage-about-us .about-us {
@@ -2356,6 +2384,11 @@ header.header .header-three {
   }
 }
 
+.view-homepage-about-us .band-members {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+
 @media (min-width: 777px) {
   .view-homepage-about-us .band-members {
     float: left;
@@ -2363,6 +2396,8 @@ header.header .header-three {
     margin-left: 0%;
     margin-right: -100%;
     padding-right: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
   [dir="rtl"] .view-homepage-about-us .band-members {
     float: right;
@@ -2376,9 +2411,16 @@ header.header .header-three {
 }
 
 .view-homepage-about-us .band-members img {
-  float: left;
+  text-align: center;
   margin-right: 20px;
   border: solid 2px #6F292A;
+}
+
+@media (min-width: 777px) {
+  .view-homepage-about-us .band-members img {
+    float: left;
+    text-align: left;
+  }
 }
 
 .view-homepage-about-us .band-members .views-field.views-field-title {
@@ -2404,20 +2446,38 @@ header.header .header-three {
   }
 }
 
+.testimonials {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: solid 1px #4a1b1c;
+}
+
 @media (min-width: 777px) {
   .testimonials {
     float: left;
     width: 66.66667%;
     margin-left: 0%;
     margin-right: -100%;
+    text-align: left;
     padding-right: 30px;
     border-right: solid 1px #4a1b1c;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
   }
   [dir="rtl"] .testimonials {
     float: right;
     margin-right: 0%;
     margin-left: -100%;
   }
+}
+
+.testimonials h2 {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: inherit;
 }
 
 /*# sourceMappingURL=styles.css.map */

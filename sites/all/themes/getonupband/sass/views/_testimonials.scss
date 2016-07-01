@@ -1,7 +1,21 @@
 .testimonials {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: solid 1px color(secondary);
   @include zen-respond-to(m) {
     @include zen-grid-item(8, 1);
+    text-align: left;
     padding-right: 30px;
     border-right: solid 1px color(secondary);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  h2 {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: inherit;
   }
 }
