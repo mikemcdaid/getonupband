@@ -41,14 +41,16 @@
     }
     img {
       float: left;
-      margin-top: 11px;
       margin-right: 20px;
       border: solid 2px color(primary);
     }
     .views-field.views-field-title {
       display: inline-block;
     }
-    p {margin: 0;}
+    p {
+      margin: 0;
+      font-size: .8em;
+    }
     &:before {
       font-family: FontAwesome;
       content: "\f0c0";

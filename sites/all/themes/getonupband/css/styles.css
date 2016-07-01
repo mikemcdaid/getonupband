@@ -2377,7 +2377,6 @@ header.header .header-three {
 
 .view-homepage-about-us .band-members img {
   float: left;
-  margin-top: 11px;
   margin-right: 20px;
   border: solid 2px #6F292A;
 }
@@ -2388,6 +2387,7 @@ header.header .header-three {
 
 .view-homepage-about-us .band-members p {
   margin: 0;
+  font-size: .8em;
 }
 
 .view-homepage-about-us .band-members:before {
