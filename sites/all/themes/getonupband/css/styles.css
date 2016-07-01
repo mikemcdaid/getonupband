@@ -1735,6 +1735,14 @@ body.maintenance-page.in-maintenance.no-sidebars {
   text-align: center;
 }
 
+body.maintenance-page.in-maintenance.no-sidebars .header__logo {
+  float: none;
+}
+
+body.maintenance-page.in-maintenance.no-sidebars .header__logo img {
+  max-width: 400px;
+}
+
 body.maintenance-page.in-maintenance.no-sidebars .header__name-and-slogan {
   margin-top: 50px;
   float: none;
