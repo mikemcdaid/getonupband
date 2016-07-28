@@ -21,7 +21,7 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  background-color: #6F292A;
+  background-color: #6f292a;
 }
 
 article,
@@ -66,7 +66,7 @@ a {
 }
 
 :visited {
-  color: #BD5621;
+  color: #bd5621;
 }
 
 a:active {
@@ -469,7 +469,7 @@ th {
 .tabs__tab-link:active,
 .tabs__tab-link.is-active,
 .tabs__tab-link--is-active {
-  background: #BD5621 !important;
+  background: #bd5621 !important;
 }
 
 .layout-center {
@@ -951,7 +951,7 @@ ul#superfish-1-accordion.superfish-processed.sf-accordion.sf-expanded li a {
 }
 
 ul#superfish-1-accordion.superfish-processed.sf-accordion.sf-expanded li a:hover {
-  color: #BD5621;
+  color: #bd5621;
 }
 
 @media print {
@@ -1768,13 +1768,13 @@ header.header:after {
 header.header .header-one,
 header.header .header-three {
   text-align: center;
-  border: solid 2px #BD5621;
+  border: solid 2px #bd5621;
   margin-top: 20px;
 }
 
 header.header .header-one a,
 header.header .header-three a {
-  color: #BD5621;
+  color: #bd5621;
   text-decoration: none;
   font-size: 3em;
 }
@@ -1911,7 +1911,7 @@ header.header .header-three {
 }
 
 .layout-center.main-content {
-  background-color: #6F292A;
+  background-color: #6f292a;
   padding-top: 0;
 }
 
@@ -1976,7 +1976,7 @@ header.header .header-three {
 }
 
 .footer-bg a:hover, .footer-bg a.active {
-  color: #BD5621;
+  color: #bd5621;
 }
 
 @media (min-width: 555px) {
@@ -1986,9 +1986,9 @@ header.header .header-three {
     margin-left: 0%;
     margin-right: -100%;
     min-height: 200px;
-    border-left: solid 1px #6F292A;
-    border-right: solid 1px #6F292A;
-    border-bottom: solid 1px #6F292A;
+    border-left: solid 1px #6f292a;
+    border-right: solid 1px #6f292a;
+    border-bottom: solid 1px #6f292a;
     padding-left: 20px;
   }
   [dir="rtl"] .footer-bg .footer-one {
@@ -2020,8 +2020,8 @@ header.header .header-three {
     margin-left: 50%;
     margin-right: -100%;
     min-height: 200px;
-    border-right: solid 1px #6F292A;
-    border-bottom: solid 1px #6F292A;
+    border-right: solid 1px #6f292a;
+    border-bottom: solid 1px #6f292a;
     padding-left: 20px;
   }
   [dir="rtl"] .footer-bg .footer-two {
@@ -2054,8 +2054,8 @@ header.header .header-three {
     margin-right: -100%;
     clear: left;
     min-height: 200px;
-    border-left: solid 1px #6F292A;
-    border-right: solid 1px #6F292A;
+    border-left: solid 1px #6f292a;
+    border-right: solid 1px #6f292a;
   }
   [dir="rtl"] .footer-bg .footer-three {
     float: right;
@@ -2089,7 +2089,7 @@ header.header .header-three {
     margin-left: 50%;
     margin-right: -100%;
     min-height: 200px;
-    border-right: solid 1px #6F292A;
+    border-right: solid 1px #6f292a;
   }
   [dir="rtl"] .footer-bg .footer-four {
     float: right;
@@ -2159,7 +2159,7 @@ header.header .header-three {
     border-right: solid 1px #4a1b1c;
     margin-bottom: 0;
     padding-bottom: 0;
-    border-bottom: none;
+    border-bottom: 0;
   }
   [dir="rtl"] .view-homepage-promo-s .services {
     float: right;
@@ -2170,7 +2170,7 @@ header.header .header-three {
 
 .view-homepage-promo-s .services:before {
   font-family: FontAwesome;
-  content: "\f02d";
+  content: '\f02d';
   margin-right: 15px;
   font-size: 3em;
   display: inline-block;
@@ -2208,7 +2208,7 @@ header.header .header-three {
 
 .view-homepage-promo-s .events:before {
   font-family: FontAwesome;
-  content: "\f073";
+  content: '\f073';
   margin-right: 15px;
   font-size: 3em;
   display: inline-block;
@@ -2258,7 +2258,7 @@ header.header .header-three {
 
 .view-homepage-promo-s .repertoire:before {
   font-family: FontAwesome;
-  content: "\f025";
+  content: '\f025';
   margin-right: 15px;
   font-size: 3em;
   display: inline-block;
@@ -2303,8 +2303,8 @@ header.header .header-three {
 }
 
 .hp-galleries .view-homepage-galleries .bx-wrapper .bx-viewport {
-  border: 5px solid #6F292A;
-  background: #6F292A;
+  border: 5px solid #6f292a;
+  background: #6f292a;
   box-shadow: none;
 }
 
@@ -2420,7 +2420,7 @@ header.header .header-three {
 .view-homepage-about-us .band-members img {
   text-align: center;
   margin-right: 20px;
-  border: solid 2px #6F292A;
+  border: solid 2px #6f292a;
 }
 
 @media (min-width: 777px) {
@@ -2471,7 +2471,7 @@ header.header .header-three {
     border-right: solid 1px #4a1b1c;
     margin-bottom: 0;
     padding-bottom: 0;
-    border-bottom: none;
+    border-bottom: 0;
   }
   [dir="rtl"] .testimonials {
     float: right;
@@ -2486,5 +2486,3 @@ header.header .header-three {
   margin-bottom: 0;
   line-height: inherit;
 }
-
-/*# sourceMappingURL=styles.css.map */

@@ -3,6 +3,7 @@
   border-bottom: solid 1px color(secondary);
 
   @include zen-grid-container;
+
   @include zen-respond-to(m) {
     padding: 50px 0;
     text-align: left;
@@ -14,11 +15,14 @@
     margin-bottom: 0;
     line-height: inherit;
   }
+
   .about-us {
     margin-bottom: 40px;
     padding-bottom: 40px;
     border-bottom: solid 1px color(secondary);
+
     @include zen-respond-to(m) {
+
       @include zen-grid-item(8, 1, right);
       border-bottom: none;
       padding-left: 30px;
@@ -26,47 +30,60 @@
       margin-bottom: 0;
       border-left: solid 1px color(secondary);
     }
+
     &:before {
       font-family: FontAwesome;
       content: "\f135";
       margin-right: 15px;
       font-size: 3em;
       display: inline-block;
+
       @include zen-respond-to(m) {
         float: left;
       }
+
     }
   }
+
   .band-members {
     margin-bottom: 40px;
     padding-bottom: 40px;
+
     @include zen-respond-to(m) {
+
       @include zen-grid-item(4, 1);
       padding-right: 30px;
       padding-bottom: 0;
       margin-bottom: 0;
     }
+
     .views-row {
       margin: 30px 0;
       padding-bottom: 30px;
       border-bottom: solid 1px color(secondary);
     }
+
     img {
       text-align: center;
       margin-right: 20px;
       border: solid 2px color(primary);
+
       @include zen-respond-to(m) {
         float: left;
         text-align: left;
       }
+
     }
+
     .views-field.views-field-title {
       display: inline-block;
     }
+
     p {
       margin: 0;
       font-size: .8em;
     }
+
     &:before {
       font-family: FontAwesome;
       content: "\f0c0";

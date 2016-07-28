@@ -5,27 +5,31 @@ header.header {
   background-color: #FFF;
   @include zen-grid-container;
 
-    .header-one,
-    .header-three {
-      text-align: center;
-      border: solid 2px color(orange);
-      margin-top: 20px;
-      a {
-        color: color(orange);
-        text-decoration: none;
-        font-size: 3em;
-      }
-      span {display: none;}
-      p { margin: 5px; }
+  .header-top {
 
-      @include zen-respond-to(xs) {
-        border: none;
-        margin-top: 75px;
+  }
 
-        a { font-size: 1.2em; }
-        span {display: inline-block;}
-      }
+  .header-one,
+  .header-three {
+    text-align: center;
+    border: solid 2px color(orange);
+    margin-top: 20px;
+    a {
+      color: color(orange);
+      text-decoration: none;
+      font-size: 3em;
     }
+    span {display: none;}
+    p { margin: 5px; }
+
+    @include zen-respond-to(xs) {
+      border: none;
+      margin-top: 75px;
+
+      a { font-size: 1.2em; }
+      span {display: inline-block;}
+    }
+  }
 
   .header-one {
     @include zen-new-row();

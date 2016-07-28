@@ -10,6 +10,9 @@
 
 <header class="header" role="banner">
   <div class="layout-center">
+    <div class="header-top">
+      <?php print render($page['header_top']); ?>
+    </div>
     <div class="header-two">
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>

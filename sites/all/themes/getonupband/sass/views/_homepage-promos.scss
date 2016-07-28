@@ -1,4 +1,5 @@
 .view-homepage-promo-s {
+
   @include zen-grid-container;
 
   padding: 50px 0 0 0;
@@ -26,11 +27,12 @@
       border-right: solid 1px color(secondary);
       margin-bottom: 0;
       padding-bottom: 0;
-      border-bottom: none;
+      border-bottom: 0;
     }
+
     &:before {
       font-family: FontAwesome;
-      content: "\f02d";
+      content: '\f02d';
       margin-right: 15px;
       font-size: 3em;
       display: inline-block;
@@ -52,9 +54,10 @@
       padding-bottom: 25px;
       margin-bottom: 0;
     }
+
     &:before {
       font-family: FontAwesome;
-      content: "\f073";
+      content: '\f073';
       margin-right: 15px;
       font-size: 3em;
       display: inline-block;
@@ -69,6 +72,7 @@
       }
     }
   }
+
   .repertoire{
     margin-bottom: 40px;
     padding-bottom: 40px;
@@ -79,12 +83,13 @@
       padding-left: 30px;
       margin-bottom: 0;
       padding-bottom: 0;
-      border-bottom: none;
+      border-bottom: 0;
       @include zen-grid-item(4, 1, right);
     }
+
     &:before {
       font-family: FontAwesome;
-      content: "\f025";
+      content: '\f025';
       margin-right: 15px;
       font-size: 3em;
       display: inline-block;
@@ -92,8 +97,10 @@
         float: left;
       }
     }
+
     .views-field.views-field-title {
       margin-top: 15px;
     }
+
   }
 }
