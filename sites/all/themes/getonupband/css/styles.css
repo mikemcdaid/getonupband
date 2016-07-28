@@ -1750,7 +1750,7 @@ body.maintenance-page.in-maintenance.no-sidebars .header__name-and-slogan {
 }
 
 header.header {
-  padding: 20px 0;
+  padding-bottom: 20px;
   background-color: #FFF;
 }
 
@@ -1763,6 +1763,10 @@ header.header:after {
   content: "";
   display: table;
   clear: both;
+}
+
+header.header .header-top {
+  margin-bottom: 20px;
 }
 
 header.header .header-top div#block-block-5 {
