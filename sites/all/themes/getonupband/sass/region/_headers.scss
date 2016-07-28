@@ -1,12 +1,31 @@
 @import 'init';
 
 header.header {
-  padding: 20px 0;
+  padding-bottom: 20px;
   background-color: #FFF;
   @include zen-grid-container;
 
   .header-top {
-
+    div#block-block-5 {
+      float: right;
+      ul {
+        float: right;
+        padding: 0;
+        margin: 0;
+        li {
+          float: left;
+          margin-left: 5px;
+          list-style: none;
+          i {
+            width: 25px;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            background-color: color(orange);
+          }
+        }
+      }
+    }
   }
 
   .header-one,

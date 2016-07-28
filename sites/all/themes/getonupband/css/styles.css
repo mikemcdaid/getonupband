@@ -1765,6 +1765,30 @@ header.header:after {
   clear: both;
 }
 
+header.header .header-top div#block-block-5 {
+  float: right;
+}
+
+header.header .header-top div#block-block-5 ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+header.header .header-top div#block-block-5 ul li {
+  float: left;
+  margin-left: 5px;
+  list-style: none;
+}
+
+header.header .header-top div#block-block-5 ul li i {
+  width: 25px;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  background-color: #bd5621;
+}
+
 header.header .header-one,
 header.header .header-three {
   text-align: center;
@@ -2243,7 +2267,7 @@ header.header .header-three {
     padding-left: 30px;
     margin-bottom: 0;
     padding-bottom: 0;
-    border-bottom: none;
+    border-bottom: 0;
     float: right;
     width: 33.33333%;
     margin-right: 0%;
