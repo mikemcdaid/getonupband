@@ -20,6 +20,7 @@ h1,
   @include margin-bottom(1, xxl);
   //color: #FFF;
   text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h2,
@@ -27,6 +28,7 @@ h2,
   @include type-layout(xl, 1.5);
   @include margin-top(1, xl);
   @include margin-bottom(1, xl);
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h3,
