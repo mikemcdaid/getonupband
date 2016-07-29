@@ -47,7 +47,10 @@ header.header {
       margin-top: 75px;
 
       a { font-size: 1.2em; }
-      span {display: inline-block;}
+      span {
+        display: inline-block;
+        font-family: 'Roboto Condensed', sans-serif;
+      }
     }
   }
 

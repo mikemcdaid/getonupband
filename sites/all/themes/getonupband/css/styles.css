@@ -1834,6 +1834,7 @@ header.header .header-three p {
   header.header .header-one span,
   header.header .header-three span {
     display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
   }
 }
 
