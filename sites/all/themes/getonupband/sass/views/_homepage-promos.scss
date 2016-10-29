@@ -2,13 +2,14 @@
 
   @include zen-grid-container;
 
-  padding: 50px 0 0 0;
-  text-align: center;
   @include zen-respond-to(m) {
     padding: 50px 0;
     text-align: left;
     border-bottom: solid 1px color(secondary);
   }
+
+  padding: 50px 0 0;
+  text-align: center;
 
   h2 {
     display: inline-block;
@@ -18,9 +19,7 @@
   }
 
   .services {
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    border-bottom: solid 1px color(secondary);
+
     @include zen-respond-to(m) {
       @include zen-grid-item(8, 1);
       padding-right: 30px;
@@ -30,23 +29,26 @@
       border-bottom: 0;
     }
 
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: solid 1px color(secondary);
+
     &:before {
+      @include zen-respond-to(m) {
+        float: left;
+      }
+
       font-family: FontAwesome;
       content: '\f02d';
       margin-right: 15px;
       font-size: 3em;
       display: inline-block;
-      @include zen-respond-to(m) {
-        float: left;
-      }
-    }
 
+    }
   }
 
   .events {
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    border-bottom: solid 1px color(secondary);
+
     @include zen-respond-to(m) {
       @include zen-grid-item(4, 1, right);
       border-bottom: solid 1px color(secondary);
@@ -55,47 +57,56 @@
       margin-bottom: 0;
     }
 
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: solid 1px color(secondary);
+
     &:before {
+      @include zen-respond-to(m) {
+        float: left;
+      }
+
       font-family: FontAwesome;
       content: '\f073';
       margin-right: 15px;
       font-size: 3em;
       display: inline-block;
-      @include zen-respond-to(m) {
-        float: left;
-      }
+
     }
+
     table {
-      margin: 1.5rem 20px;
       @include zen-respond-to(m) {
         margin: 1.5rem 0;
       }
+      margin: 1.5rem 20px;
     }
   }
 
-  .repertoire{
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    border-bottom: solid 1px color(secondary);
+  .repertoire {
+
     @include zen-respond-to(m) {
+      @include zen-grid-item(4, 1, right);
       clear: right;
       margin-top: 30px;
       padding-left: 30px;
       margin-bottom: 0;
       padding-bottom: 0;
       border-bottom: 0;
-      @include zen-grid-item(4, 1, right);
     }
 
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: solid 1px color(secondary);
+
     &:before {
+      @include zen-respond-to(m) {
+        float: left;
+      }
       font-family: FontAwesome;
       content: '\f025';
       margin-right: 15px;
       font-size: 3em;
       display: inline-block;
-      @include zen-respond-to(m) {
-        float: left;
-      }
     }
 
     .views-field.views-field-title {

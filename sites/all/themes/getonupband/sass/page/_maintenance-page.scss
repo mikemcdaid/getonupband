@@ -1,12 +1,18 @@
 body.maintenance-page.in-maintenance.no-sidebars {
   text-align: center;
+
   .header__logo {
     float: none;
+
     img {max-width: 400px;}
+
   }
+
   .header__name-and-slogan {
     margin-top: 50px;
     float: none;
   }
+
 }
+
 

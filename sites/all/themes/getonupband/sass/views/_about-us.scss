@@ -1,6 +1,4 @@
 .view-homepage-about-us {
-  text-align: center;
-  border-bottom: solid 1px color(secondary);
 
   @include zen-grid-container;
 
@@ -8,6 +6,9 @@
     padding: 50px 0;
     text-align: left;
   }
+
+  text-align: center;
+  border-bottom: solid 1px color(secondary);
 
   h2 {
     display: inline-block;
@@ -17,37 +18,35 @@
   }
 
   .about-us {
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    border-bottom: solid 1px color(secondary);
 
     @include zen-respond-to(m) {
 
       @include zen-grid-item(8, 1, right);
-      border-bottom: none;
+      border-bottom: 0;
       padding-left: 30px;
       padding-bottom: 25px;
       margin-bottom: 0;
       border-left: solid 1px color(secondary);
     }
 
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: solid 1px color(secondary);
+
     &:before {
-      font-family: FontAwesome;
-      content: "\f135";
-      margin-right: 15px;
-      font-size: 3em;
-      display: inline-block;
 
       @include zen-respond-to(m) {
         float: left;
       }
-
+      font-family: FontAwesome;
+      content: '\f135';
+      margin-right: 15px;
+      font-size: 3em;
+      display: inline-block;
     }
   }
 
   .band-members {
-    margin-bottom: 40px;
-    padding-bottom: 40px;
 
     @include zen-respond-to(m) {
 
@@ -57,6 +56,9 @@
       margin-bottom: 0;
     }
 
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+
     .views-row {
       margin: 30px 0;
       padding-bottom: 30px;
@@ -64,15 +66,14 @@
     }
 
     img {
-      text-align: center;
-      margin-right: 20px;
-      border: solid 2px color(primary);
-
       @include zen-respond-to(m) {
         float: left;
         text-align: left;
       }
 
+      text-align: center;
+      margin-right: 20px;
+      border: solid 2px color(primary);
     }
 
     .views-field.views-field-title {
@@ -85,14 +86,16 @@
     }
 
     &:before {
-      font-family: FontAwesome;
-      content: "\f0c0";
-      margin-right: 15px;
-      font-size: 3em;
-      display: inline-block;
+
       @include zen-respond-to(m) {
         float: left;
       }
+
+      font-family: FontAwesome;
+      content: '\f0c0';
+      margin-right: 15px;
+      font-size: 3em;
+      display: inline-block;
     }
   }
 }

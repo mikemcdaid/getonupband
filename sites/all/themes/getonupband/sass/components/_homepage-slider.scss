@@ -1,13 +1,16 @@
 .homepage-slider {
   max-width: 1920px;
   margin: 0 auto;
+
   .bx-wrapper .bx-viewport {
     -moz-box-shadow: 0 0 5px #ccc;
     -webkit-box-shadow: none;
-    border: none;
+    border: 0;
+
     ul {
       margin: 0;
     }
+
   }
 
   .bx-pager {
@@ -20,20 +23,23 @@
 
   .bx-wrapper .bx-pager.bx-default-pager a {
     background: transparent;
-    border: solid 1px #FFF;
+    border: solid 1px #fff;
     width: 15px;
     height: 15px;
     border-radius: 10px;
+
     &:hover {
-      background: #FFF;
+      background: #fff;
     }
+
   }
 
   .bx-wrapper .bx-pager.bx-default-pager a.active {
-    background: #FFF;
+    background: #fff;
   }
 
 }
+
 
 
 

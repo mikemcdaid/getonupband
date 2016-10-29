@@ -1,15 +1,20 @@
 .super-nav {
   width: 100%;
-  background-color: #BD5621;
+  background-color: #bd5621;
   height: 48px;
+
   .sf-menu.sf-style-simple {
+
     li {
       background: none;
       text-align: center;
     }
+
     a {
       color: #fff;
       text-shadow: none;
     }
+
   }
+
 }

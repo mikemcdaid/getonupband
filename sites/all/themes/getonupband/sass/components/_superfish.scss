@@ -1,17 +1,19 @@
 ul#superfish-1 {
+
     li {
+        @include zen-respond-to(xl) {
+        font-size: 1em;
+        margin-top: 14px;
+        }
         width: 10%;
         margin-top: 17px;
         font-size: .8em;
         text-align: center;
-        @include zen-respond-to(xl) {
-            font-size: 1em;
-            margin-top: 14px;
-        }
+
         a {
-            color: #FFF;
-            text-decoration: none;
-            &:hover { color: color(secondary); }
+         color: #fff;
+         text-decoration: none;
+         &:hover { color: color(secondary); }
         }
     }
 }
@@ -19,22 +21,25 @@ ul#superfish-1 {
 .sf-accordion-toggle.sf-style-none {
     text-align: center;
     padding-top: 7px;
+
     a {
-        color: #FFF;
+        color: #fff;
         font-size: 3em;
         text-decoration: none;
     }
 }
 
-ul#superfish-1-accordion.superfish-processed.sf-accordion.sf-expanded{
+ul#superfish-1-accordion.superfish-processed.sf-accordion.sf-expanded {
     background-color: color(secondary);
     margin-top: 5px;
     z-index: 1000;
+
     li a {
-        color: #FFF;
+        color: #fff;
         text-decoration: none;
         margin: 10px 0;
         text-align: center;
         &:hover { color: color(orange); }
     }
+
 }

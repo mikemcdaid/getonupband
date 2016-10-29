@@ -34,7 +34,7 @@ button,
 [type='submit'] {
   @extend %button--disabled;
 
-  border: solid 3px #FFF;
+  border: solid 3px #fff;
   background-color: transparent;
   padding: 6px 15px;
   // Some styles don't apply to <a> links since they are inline elements by default.
