@@ -874,9 +874,8 @@ span.field-label {
 }
 
 .homepage-slider .bx-wrapper .bx-viewport {
-  -moz-box-shadow: 0 0 5px #ccc;
-  -webkit-box-shadow: none;
   border: 0;
+  left: 0;
 }
 
 .homepage-slider .bx-wrapper .bx-viewport ul {
@@ -2335,7 +2334,6 @@ header.header .header-three {
 }
 
 .hp-galleries .view-homepage-galleries .bx-wrapper .bx-viewport {
-  border: 5px solid #6f292a;
   background: #6f292a;
   box-shadow: none;
 }
@@ -2518,3 +2516,9 @@ header.header .header-three {
   margin-bottom: 0;
   line-height: inherit;
 }
+
+.container {
+  max-width: 1440px;
+}
+
+/*# sourceMappingURL=styles.css.map */

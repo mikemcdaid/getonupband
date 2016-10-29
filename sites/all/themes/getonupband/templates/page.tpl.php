@@ -8,6 +8,7 @@
  */
 ?>
 
+<div class="container">
 <header class="header" role="banner">
   <div class="layout-center">
     <div class="header-top">
@@ -133,5 +134,7 @@
       <?php print render($page['footer_four']); ?>
     </div>
   </div>
+</div>
+
 </div>
 
