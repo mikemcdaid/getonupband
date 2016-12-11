@@ -20,7 +20,7 @@ ul#superfish-1 {
 
 .sf-accordion-toggle.sf-style-none {
     text-align: center;
-    padding-top: 7px;
+    padding-top: 12px;
 
     a {
         color: #fff;
@@ -34,12 +34,16 @@ ul#superfish-1-accordion.superfish-processed.sf-accordion.sf-expanded {
     margin-top: 5px;
     z-index: 1000;
 
-    li a {
+    li {
+        padding: 0 5px;
+        border-bottom: 1px solid color(link);
+    a {
         color: #fff;
         text-decoration: none;
-        margin: 10px 0;
+        margin: 15px 0;
         text-align: center;
         &:hover { color: color(orange); }
+        }
     }
 
 }

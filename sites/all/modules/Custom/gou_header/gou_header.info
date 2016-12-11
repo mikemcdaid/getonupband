@@ -1,0 +1,3 @@
+name = Get On Up Band Header Module
+description = Moves images from the image field to the header area.
+core = 7.x

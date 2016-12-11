@@ -6,9 +6,11 @@ header.header {
   background-color: #fff;
 
   .header-top {
-    padding-bottom: 20px;
+    padding: 5px 0 20px;
 
+    //social icons block
     div#block-block-5 {
+      width: 100%;
       float: right;
 
       ul {
@@ -21,15 +23,21 @@ header.header {
           margin-left: 5px;
           list-style: none;
 
+          a {
+            color: color(orange);
+            text-decoration: none;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: .9em;
+          }
+          
         }
       }
 
       i {
-        width: 25px;
-        color: #fff;
         text-align: center;
-        padding: 5px;
-        background-color: color(orange);
+        font-size: 1.1em;
+        color: color(orange);
+        background-color: #fff;
       }
 
     }
@@ -65,6 +73,7 @@ header.header {
     }
   }
 
+//Email
   .header-one {
     @include zen-new-row();
 
@@ -73,24 +82,28 @@ header.header {
     @include zen-respond-to(xs) {
       @include zen-new-row(none);
       @include zen-grid-item(4, 1);
-      text-align: left;
+      text-align: center;
     }
   }
 
+//Logo
   .header-two {
     @include zen-grid-item(12, 1);
+    margin-top: 10px;
 
     @include zen-respond-to(xs) {
       @include zen-grid-item(4, 5);
+      margin-top: 0;
     }
   }
 
+//Phone
   .header-three {
-    @include zen-grid-item(6, 1, right);
+    @include zen-grid-item(6, 7);
 
     @include zen-respond-to(xs) {
-      @include zen-grid-item(4, 1, right);
-      text-align: right;
+      @include zen-grid-item(4, 9);
+            text-align: center;
     }
   }
 

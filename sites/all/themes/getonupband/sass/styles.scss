@@ -65,7 +65,7 @@
 @import 'components/wireframe/wireframe';
 @import 'components/homepage-slider';
 @import 'components/superfish';
-
+@import 'components/crumbs';
 
 // Navigation
 //
@@ -103,6 +103,7 @@
 @import 'forms/resizable-textarea/resizable-textarea';
 @import 'forms/table-drag/table-drag';
 @import 'forms/homepage-wf';
+@import 'forms/contact';
 
 // Page
 @import 'page/maintenance-page';
@@ -119,7 +120,13 @@
 @import 'views/homepage-videos';
 @import 'views/about-us';
 @import 'views/testimonials';
+@import 'views/gallery';
+@import 'views/video';
+@import 'views/band-members';
 
 // Layouts
 @import 'layouts/container';
+
+// Blocks
+@import 'blocks/header-image';
 

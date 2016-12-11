@@ -1,0 +1,11 @@
+form#webform-client-form-11 {
+	max-width: 600px;
+	display: block;
+	margin: 0 auto;
+	background-color: color(secondary);
+  	padding: 10px 20px 40px;
+
+  	@include zen-respond-to(xs) {
+		padding: 20px 75px 40px;
+  	}
+}

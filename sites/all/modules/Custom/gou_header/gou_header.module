@@ -1,0 +1,125 @@
+<?php
+/**
+* @file
+* A description of what your module does.
+*/
+
+/**
+ * Implements hook_block_info().
+ */
+function gou_header_block_info() {
+  return [
+    'header_image' => [
+      'info' => t('Header Image'),
+      'cache' => DRUPAL_CACHE_PER_PAGE,
+    ],
+  ];
+}
+
+/**
+ * Implements hook_block_view().
+ *
+ * Creates the Header Image block and
+ * gets the actual header image from the field.
+ *
+ */
+function gou_header_block_view($delta = '') {
+  $block = [];
+
+  if ($delta == 'header_image') {
+    $block['subject'] = t('Header Image');
+
+    if (!drupal_is_front_page()) {
+
+    $node = menu_get_object();
+    $view = views_get_page_view();
+
+       if ($view) {
+
+         if ($view->name == 'photosets') {
+            $field_items = path_to_theme() . '/images/gallery-header.jpg';
+            $image_path = file_create_url($field_items);
+            $title = 'Gallery';
+            drupal_set_title('');
+        }
+
+        if ($view->name == 'releases') {
+            $field_items = path_to_theme() . '/images/repertoire-header.jpg';
+            $image_path = file_create_url($field_items);
+            $title = 'Repertoire';
+            drupal_set_title('');
+        }
+
+        if ($view->name == 'videos') {
+            $field_items = path_to_theme() . '/images/videos-header.jpg';
+            $image_path = file_create_url($field_items);
+            $title = 'Videos';
+            drupal_set_title('');
+        }
+
+        if ($view->name == 'events') {
+            $field_items = path_to_theme() . '/images/events-header.jpg';
+            $image_path = file_create_url($field_items);
+            $title = 'Events';
+            drupal_set_title('');
+        }
+
+        if ($view->name == 'band_members') {
+            $field_items = path_to_theme() . '/images/events-header.jpg';
+            $image_path = file_create_url($field_items);
+            $title = 'Band Members';
+            drupal_set_title('');
+        }
+
+       }
+
+      if ($node) {
+        $field_items = field_get_items('node', $node, 'field_header_image');
+        $image_path = file_create_url($field_items[0]['uri']);
+        $title = $node->title;
+        drupal_set_title('');
+      }
+
+      if (!$node && !$view) {
+        $field_items = path_to_theme() . '/images/gallery-header.jpg';
+        $image_path = file_create_url($field_items);
+        if (user_is_logged_in()) {
+          $user = $GLOBALS['user']->name;
+          $title = 'Welcome back, ' . $user;
+        }
+        else {
+          $title = 'Welcome to Get On Up Band';
+        }
+      }
+
+      $block['content'] = [
+        '#prefix' => '<div class="header-image">',
+        '#suffix' => '</div>',
+        '#markup' => '<h1>' . $title . '</h1>',
+        '#attached' => [
+          'css' => [
+            '.header-image { background-image: url(' . $image_path . '); background-repeat: no-repeat; }' => [
+              'type' => 'inline',
+            ],
+          ],
+        ],
+      ];
+    }
+  }
+  return $block;
+}
+
+/*
+ * Implements hook_preprocess_page().
+ *
+ * hides the title on the user page
+ */
+function gou_header_preprocess_page(&$vars) {
+
+  $path = drupal_get_path_alias();
+  
+  if ($path == 'user') {
+    drupal_set_title('');
+  }
+
+}

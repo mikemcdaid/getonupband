@@ -1,0 +1,35 @@
+.view.view-band-members.view-id-band_members.view-display-id-page_1 {
+
+	.views-row {
+		display: inline-block;
+		margin-top: 30px;
+		border-bottom: 1px solid color(link);
+
+		@include zen-respond-to(xs) {
+			padding-bottom: 30px;
+		}
+
+		.views-field.views-field-title {
+			text-align: center;
+			margin-top: 20px;
+
+			@include zen-respond-to(xs) {
+				text-align: left;
+				margin-top: 0;
+			}
+		}
+
+		img {
+		display: block;
+		margin: 0 auto;
+
+			@include zen-respond-to(xs) {
+				float: left;
+	   			margin-right: 20px;
+			}
+	    	
+		}
+
+	}
+	
+}

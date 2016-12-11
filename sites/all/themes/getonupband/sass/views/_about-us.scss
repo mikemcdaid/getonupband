@@ -7,7 +7,7 @@
     text-align: left;
   }
 
-  text-align: center;
+  //text-align: center;
   border-bottom: solid 1px color(secondary);
 
   h2 {
@@ -33,7 +33,7 @@
     padding-bottom: 40px;
     border-bottom: solid 1px color(secondary);
 
-    &:before {
+    &::before {
 
       @include zen-respond-to(m) {
         float: left;
@@ -66,14 +66,16 @@
     }
 
     img {
-      @include zen-respond-to(m) {
-        float: left;
-        text-align: left;
-      }
-
-      text-align: center;
-      margin-right: 20px;
+      
+      float: left;
+      text-align: left;
+      margin-right: 10px;
       border: solid 2px color(primary);
+
+      @include zen-respond-to(m) {
+        margin-right: 20px;
+      }
+      
     }
 
     .views-field.views-field-title {
@@ -85,7 +87,7 @@
       font-size: .8em;
     }
 
-    &:before {
+    &::before {
 
       @include zen-respond-to(m) {
         float: left;

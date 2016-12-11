@@ -1,1 +1,1 @@
-/Users/mikemcdaid/Sites/getonupband/conf/settings.php
+/var/www/getonupband.co.uk/conf/settings.php

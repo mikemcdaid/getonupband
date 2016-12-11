@@ -1,0 +1,73 @@
+.view-id-photosets {
+
+	//margin-top: 30px;
+
+	.masonry-item {
+	    width: 100%;
+	    background-color: color(primary);
+	    border: 0;
+	    margin: 0;
+	    padding: 0;
+	    line-height: 0;
+	    overflow: hidden;
+
+	    @include zen-respond-to(xs) {
+	    	width: 33.333%;
+	    	padding: 0.7%;
+	    	max-height: 210px;
+	    }
+
+	     @include zen-respond-to(l) {
+	    	max-height: 400px;
+	    }
+
+	}
+
+	.views-field.views-field-title {
+		position: relative;
+	    top: 270px;
+		background: rgba(232, 175, 0, .6);
+	    padding: 20px;
+	    text-align: center;
+	    margin: 0 20px;
+	    font-size: 1em;
+	    line-height: 1.3em;
+	    z-index: 100;
+
+	    @include zen-respond-to(xs) {	
+	    	top: 63px;
+	   	    margin: 0 10px;
+	    }
+
+	    @include zen-respond-to(l) {	
+	    	top: 291px;
+	   	    margin: 0 20px;
+	    }
+
+		a {
+			text-decoration: none;
+			color: #fff;
+
+			&:hover {
+				color: color(primary);
+			}
+
+		}
+	}
+
+	.views-field.views-field-field-photos {
+	position: relative;
+	    top: -63px;
+	    z-index: 0;
+
+	    @include zen-respond-to(xs) {	
+	    	top: -100px;
+	    }
+
+	    @include zen-respond-to(l) {	
+	    	top: -72px;
+	    }
+
+	}
+
+}

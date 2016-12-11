@@ -1,9 +1,10 @@
-.hp-galleries {
+.front .hp-galleries {
   @include zen-grid-container;
 
   background: color(secondary);
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 30px;
 
   .view-homepage-galleries {
     max-width: 570px;

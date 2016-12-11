@@ -54,6 +54,12 @@
     <?php print render($page['highlighted']); ?>
   </div>
 
+  <div class="crumbs">
+    <div class="layout-center">
+    <?php print $breadcrumb; ?>
+    </div>
+  </div>
+
 <div class="layout-center main-content">
 
   <div class="layout-3col layout-swap">
@@ -79,7 +85,6 @@
     ?>
 
     <main class="<?php print $content_class; ?>" role="main">
-      <?php print $breadcrumb; ?>
       <a href="#skip-link" class="visually-hidden visually-hidden--focusable" id="main-content">Back to top</a>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>

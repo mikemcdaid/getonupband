@@ -29,3 +29,10 @@ $layout-swap-height: 2 * $base-line-height;
     }
   }
 }
+
+//@media (min-width: 555px) {
+  .layout-swap {
+    padding-top: 30px;
+  }
+//}
+
